@@ -5,21 +5,27 @@
  - The anatomy of an ashivaModule Reference
    - Examples of Full ashivaModule References
    - Examples of Normal ashivaModule References
+   
+  - ashivaModule References in Files
+   - ashivaModule References in PHP Files
+   - ashivaModule References in CSS and Javascript Files
+   
  - ashiva Namespacing Access
 
 _____
 
 ## The anatomy of an ashivaModule Reference
 
-An **ashivaModule Reference** consists of *5 sections*:
+An **ashivaModule Reference** consists of *6 sections*:
 
  - The **PublisherName** which is *usually omitted* but in certain contexts is *obligatory*
+ - The **ComponentType** which is *often omitted* but in certain contexts is *obligatory*
  - The **PublisherShortName** which is *obligatory*
  - The **ModuleName** which is *obligatory*
  - The **StrongModifiers** which are *optional*
  - The **LightModifiers** which are *optional*
 
-It's rare to see a **Full ashivaModule Reference** (which begins with the **PublisherName**), but **Normal ashivaModule References** (which begin with the **PublisherShortName**) are common.
+It's rare to see a **Full ashivaModule Reference** (which begins with the **PublisherName**), but **Normal ashivaModule References** (which begin with the **PublisherShortName**) and **ashivaModule Component References** (which begin with the **ComponentType**) are more common.
 
 ### Examples of Full ashivaModule References
 
@@ -57,6 +63,25 @@ It's rare to see a **Full ashivaModule Reference** (which begins with the **Publ
 >  #### Normal ashivaModule Reference (without any Modifiers)
 
 `«PublisherShortName_ModuleName»`
+
+
+### Examples of ashivaModule Component Reference
+
+>  #### Normal ashivaModule Component Reference
+
+`«ComponentType[@]PublisherShortName_ModuleName::StrongModifier1::StrongModifier2#LightModifier1#LightModifier2»`
+
+>  #### Normal ashivaModule Component Reference (without Light Modifiers)
+
+`«ComponentType[@]PublisherShortName_ModuleName::StrongModifier1::StrongModifier2»`
+
+>  #### Normal ashivaModule Component Reference (without Strong Modifiers)
+
+`«ComponentType[@]PublisherShortName_ModuleName#LightModifier1#LightModifier2»`
+
+>  #### Normal ashivaModule Component Reference (without any Modifiers)
+
+`«ComponentType[@]PublisherShortName_ModuleName»`
 
 _____
 

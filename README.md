@@ -5,10 +5,11 @@
  - The anatomy of an ashivaModule Reference
    - Examples of Full ashivaModule References
    - Examples of Normal ashivaModule References
+   - Examples of ashivaModule Component References
    
   - ashivaModule References in Files
-   - ashivaModule References in PHP Files
-   - ashivaModule References in CSS and Javascript Files
+    - ashivaModule References in PHP Files
+    - ashivaModule References in CSS and Javascript Files
    
  - ashiva Namespacing Access
 
@@ -65,7 +66,7 @@ It's rare to see a **Full ashivaModule Reference** (which begins with the **Publ
 `«PublisherShortName_ModuleName»`
 
 
-### Examples of ashivaModule Component Reference
+### Examples of ashivaModule Component References
 
 >  #### Normal ashivaModule Component Reference
 

@@ -24,6 +24,8 @@ This also means that an **ashivaModule** developed for one website may be straig
     - ashivaModule References in ashivaModule Codesheets
    
  - ashiva Namespacing Access
+   - The ashivaNamespace Access Directive
+   - Examples of ashivaNamespace Access Directives
    - `checkNamespaceAccess()` Function
 
 _____
@@ -99,11 +101,224 @@ It's rare to see a **Full ashivaModule Reference** (which begins with the **Publ
 
 _____
 
+## ashivaModule References in Files
+
+### ashivaModule References in HTML, CSS and Javascript Files
+### ashivaModule References in PHP Files
+### ashivaModule References in ashivaModule Manifests
+
+### ashivaNamespace References in ashivaModule Codesheets
+
+**ashivaNamespace References** may appear in *CSS Codesheets* and *Javascript Codesheets*.
+
+You may add any **ashivaNamespace Reference** to a *Codesheet* using the following **Da3SH Syntax**:
+
+`{«PublisherName:::PublisherShortName_ModuleName::StrongModifier1::StrongModifier2#LightModifier1#LightModifier2»}`
+
+It is imperative to declare the *selector context* of the **ashivaNamespace Reference**:
+
+ - `#` is the delimiter of an `id` selector context:  `#{«PublisherName:::PublisherShortName_ModuleName::StrongModifier1»}#`
+ - `.` is the delimiter of an `class` selector context:  `#{«PublisherName:::PublisherShortName_ModuleName::StrongModifier1»}#`
+ - `[]` are the delimiters of an `attribute` selector context:  `#{«PublisherName:::PublisherShortName_ModuleName::StrongModifier1»}#`
+ - At the start of a selector, an **ashivaNamespace Reference** assumes an element selector context:  `#{«PublisherName:::PublisherShortName_ModuleName::StrongModifier1»}#`
+
+
+#### ashivaNamespace References in CSS Selectors
+
+```
+  {
+    "@Rule" : {
+
+      "Type" : "media",
+  
+      "Directives" : [
+
+        "only screen and (hover: hover) and (pointer: fine)"
+      ],
+
+      "Rules" : [
+
+        {
+          "Selectors": [
+
+            "{«GLOBAL»} body.{«GLOBAL»}.ashiva-control-pad-activated"
+          ],
+
+          "Styles": {
+
+            "width": "calc(100vw - 17px)",
+
+            "overflow": "hidden"
+          }
+        },
+
+        {
+          "Selectors": [
+
+            ".{«Scotia_Beauty:::SB_Translations::EN»}.nail-products-category"
+          ],
+
+          "Styles": {
+
+            "text-decoration": "underline"
+          }
+        },
+
+        {
+          "Selectors": [
+
+            "[class$=\"nail-products-category\"]"
+          ],
+
+          "Styles": {
+
+            "font-style": "italic"
+          }
+        },
+
+        {
+          "Selectors": [
+
+            "[id     =    \"nail-products-category\"]"
+          ],
+
+          "Styles": {
+
+            "font-style": "italic"
+          }
+        },
+
+        {
+          "Selectors": [
+
+            "[{«Scotia_Beauty:::SB_Translations::EN»}][class=\"sb-translations°en»by»scotiaBeauty»»»nail-products-category\"]"
+          ],
+
+          "Styles": {
+
+            "color": "yellow"
+          }
+        },
+
+        {
+          "Selectors": [
+
+            "[{«Scotia_Beauty:::SB_Translations::EN»}][id=\"sb-translations°en»by»scotiaBeauty»»»nail-products-category\"]"
+          ],
+
+          "Styles": {
+
+            "color": "yellow"
+          }
+        },
+
+        {
+          "Selectors": [
+
+            "[{«GLOBAL»}][class=\"sb-translations°en»by»scotiaBeauty»»»nail-products-category\"]"
+          ],
+
+          "Styles": {
+
+            "color": "green"
+          }
+        },
+
+        {
+          "Selectors": [
+
+            "[class=\"ashiva-control-pad»by»ashiva»»»ashivaControlPad_locationSite\"]"
+          ],
+
+          "Styles": {
+
+            "font-style": "italic"
+          }
+        },
+
+        {
+          "Selectors": [
+
+            "[class*=\"ashivaControlPad_locationSite\"]"
+          ],
+
+          "Styles": {
+
+            "color": "yellow"
+          }
+        },
+
+        {
+          "Selectors": [
+
+            "li strong"
+          ],
+
+          "Styles": {
+
+            "color": "rgb(127, 191, 255)"
+          }
+        },
+
+        {
+          "Selectors": [
+
+            "header + p span"
+          ],
+
+          "Styles": {
+
+            "letter-spacing": "12px"
+          }
+        },
+
+        {
+          "Selectors": [
+
+            "footer address p"
+          ],
+
+          "Styles": {
+
+            "font-size": "18px"
+          }
+        },
+
+        {
+          "Selectors": [
+
+            "{«Scotia_Beauty:::SB_Translations::EN»} li strong"
+          ],
+
+          "Styles": {
+
+            "color": "rgb(127, 191, 255)"
+          }
+        },
+
+        {
+          "Selectors": [
+
+            "{«GLOBAL»} footer address p"
+          ],
+
+          "Styles": {
+
+            "font-size": "18px"
+          }
+        }
+      ]
+    }
+  }
+```
+
+_____
+
 ## ashiva Namespacing Access
 
 **ashiva Namespacing Access** enables permissions for an **ashivaModule** in one `namespace` to access and modify the styles and scripts of an **ashivaModule** in another `namespace`.
 
-### ashiva Namespace Access Directives
+### The ashivaNamespace Access Directive
 
 ```
 "ashivaNamespaceAccess" : [
@@ -117,7 +332,7 @@ _____
 ]
 ```
 
-### Examples of ashiva Namespace Access Directives
+### Examples of ashivaNamespace Access Directives
 ```
 // NOTHING
 ```

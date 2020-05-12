@@ -9,6 +9,8 @@
    
   - ashivaModule References in Files
     - ashivaModule References in PHP Files
+    - ashivaModule References in ashivaModule Manifests
+    - ashivaModule References in ashivaModule Codesheets
     - ashivaModule References in CSS and Javascript Files
    
  - ashiva Namespacing Access

@@ -103,6 +103,164 @@ _____
 
 **ashiva Namespacing Access** enables permissions for an **ashivaModule** in one `namespace` to access and modify the styles and scripts of an **ashivaModule** in another `namespace`.
 
+### ashiva Namespace Access Directives
+
+```
+"ashivaNamespaceAccess" : [
+
+  true,
+
+  {
+    "Ashiva_Control_Pad" : {"access" : {"default" : true}, "Global" : true, "SB_Translations::EN" : true},
+    "access" : {"default" : true}  
+  }
+]
+```
+
+### Examples of ashiva Namespace Access Directives
+
+```
+
+// NOTHING
+
+
+"ashivaNamespaceAccess" : [] 
+
+
+"ashivaNamespaceAccess" : [  
+
+  false
+]
+
+
+"ashivaNamespaceAccess" : [ 
+
+  true,
+
+  {}
+]
+
+
+"ashivaNamespaceAccess" : [ 
+
+  true,
+
+  {
+
+    "access" : {}	
+  }
+]
+
+
+"ashivaNamespaceAccess" : [  
+
+  true,
+
+  {
+
+    "access" : {"override" : true}	
+  }
+]
+
+
+"ashivaNamespaceAccess" : [ 
+
+  true,
+
+  {
+
+    "access" : {"override" : false}	
+  }
+]
+
+
+"ashivaNamespaceAccess" : [ 
+
+  true,
+
+  {
+
+    "access" : {"default" : true}	
+  }
+]
+
+
+"ashivaNamespaceAccess" : [ 
+
+  true,
+
+  {
+
+    "access" : {"default" : false}	
+  }
+]
+
+
+"ashivaNamespaceAccess" : [ 
+
+  true,
+
+  {
+
+    "access" : {"override" : true, "default" : true}	
+  }
+]
+
+
+"ashivaNamespaceAccess" : [ 
+
+  true,
+
+  {
+
+    "access" : {"override" : false, "default" : true}	
+  }
+]
+
+
+"ashivaNamespaceAccess" : [ 
+
+  true,
+
+  {
+
+    "access" : {"override" : true, "default" : false}	
+  }
+]
+
+
+"ashivaNamespaceAccess" : [ 
+
+  true,
+
+  {
+
+    "access" : {"override" : false, "default" : false}	
+  }
+]
+
+
+
+    "Global" : {},
+    "Global" : {"access" : {}},
+
+    "Global" : {"access" : {"override" : true}},
+    "Global" : {"access" : {"override" : false}},
+    "Global" : {"access" : {"default" : true}},
+    "Global" : {"access" : {"default" : false}},
+    
+    "Global" : {"access" : {"override" : true, "default" : false}},
+    "Global" : {"access" : {"override" : false, "default" : false}},
+    "Global" : {"access" : {"override" : true, "default" : true}},
+    "Global" : {"access" : {"override" : false, "default" : true}},
+
+    "Global" : {"Ashiva_Control_Pad" : true}
+    "Global" : {"Ashiva_Control_Pad" : false}
+
+```
+
+
+
 ### checkNamespaceAccess() Function
 
 ```

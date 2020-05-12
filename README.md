@@ -2,11 +2,16 @@
 
 **ashiva Namespacing** is the _Module Namespacing System_ employed by **ashiva**.
 
+ - The anatomy of an ashivaModule Reference
+  -- Examples of Full ashivaModule References
+  -- Examples of Normal ashivaModule References
+ - ashiva Namespacing Access
+
 _____
 
 ## The anatomy of an ashivaModule Reference
 
-An ashiva Module Reference consists of *5 sections*:
+An **ashivaModule Reference** consists of *5 sections*:
 
  - The **PublisherName** which is *usually omitted* but in certain contexts is *obligatory*
  - The **PublisherShortName** which is *obligatory*
@@ -57,4 +62,4 @@ _____
 
 ## ashiva Namespacing Access
 
-Additionally, **ashiva Namespacing Access** enables permissions for an **ashivaModule** in one `namespace` to access and modify the styles and scripts of an **ashivaModule** in another `namespace`.
+**ashiva Namespacing Access** enables permissions for an **ashivaModule** in one `namespace` to access and modify the styles and scripts of an **ashivaModule** in another `namespace`.

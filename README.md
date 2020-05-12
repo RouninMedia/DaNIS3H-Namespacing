@@ -113,14 +113,16 @@ _____
 
 You may add any **ashivaNamespace Reference** to a *Codesheet* using the following **Da3SH Syntax**:
 
-`{«PublisherName:::PublisherShortName_ModuleName::StrongModifier1::StrongModifier2#LightModifier1#LightModifier2»}`
+```
+{«PublisherName:::PublisherShortName_ModuleName::StrongModifier1#LightModifier1»}
+```
 
 It is imperative to declare the *selector context* of the **ashivaNamespace Reference**:
 
- - `#` is the delimiter of an `id` selector context:  `#{«PublisherName:::PublisherShortName_ModuleName::StrongModifier1»}#`
- - `.` is the delimiter of an `class` selector context:  `#{«PublisherName:::PublisherShortName_ModuleName::StrongModifier1»}#`
- - `[]` are the delimiters of an `attribute` selector context:  `#{«PublisherName:::PublisherShortName_ModuleName::StrongModifier1»}#`
- - At the start of a selector, an **ashivaNamespace Reference** assumes an element selector context:  `#{«PublisherName:::PublisherShortName_ModuleName::StrongModifier1»}#`
+ - `#` is the delimiter of an `id` selector context:  `#{«PublisherName:::PublisherShortName_ModuleName»}#`
+ - `.` is the delimiter of an `class` selector context:  `.{«PublisherName:::PublisherShortName_ModuleName»}.`
+ - `[]` are the delimiters of an `attribute` selector context:  `[{«PublisherName:::PublisherShortName_ModuleName»}]`
+ - The start of a selector indicates an `element` selector context:  `{«PublisherName:::PublisherShortName_ModuleName»}`
 
 
 #### ashivaNamespace References in CSS Selectors

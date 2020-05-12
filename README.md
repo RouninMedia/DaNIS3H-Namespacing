@@ -13,42 +13,43 @@ An ashiva Module Reference consists of *5 sections*:
  - The **ModuleName** which is *obligatory*
  - The **StrongModifiers** which are *optional*
  - The **LightModifiers** which are *optional*
- 
 
-### Examples of Full Ashiva Module References
+It's rare to see a **Full ashivaModule Reference** (which begins with the **PublisherName**), but **Normal ashivaModule References** (which begin with the **PublisherShortName**) are common.
 
->  #### Full Ashiva Module Reference
+### Examples of Full ashivaModule References
+
+>  #### Full ashivaModule Reference
 
 `«PublisherName:::PublisherShortName_ModuleName::StrongModifier1::StrongModifier2#LightModifier1#LightModifier2»`
 
->  #### Full Ashiva Module Reference (without Light Modifiers)
+>  #### Full ashivaModule Reference (without Light Modifiers)
 
 `«PublisherName:::PublisherShortName_ModuleName::StrongModifier1::StrongModifier2»`
 
->  #### Full Ashiva Module Reference (without Strong Modifiers)
+>  #### Full ashivaModule Reference (without Strong Modifiers)
 
 `«PublisherName:::PublisherShortName_ModuleName#LightModifier1#LightModifier2»`
 
->  #### Full Ashiva Module Reference (without any Modifiers)
+>  #### Full ashivaModule Reference (without any Modifiers)
 
 `«PublisherName:::PublisherShortName_ModuleName»`
 
 
-### Examples of Normal Ashiva Module References
+### Examples of Normal ashivaModule References
 
->  #### Normal Ashiva Module Reference
+>  #### Normal ashivaModule Reference
 
 `«PublisherShortName_ModuleName::StrongModifier1::StrongModifier2#LightModifier1#LightModifier2»`
 
->  #### Normal Ashiva Module Reference (without Light Modifiers)
+>  #### Normal ashivaModule Reference (without Light Modifiers)
 
 `«PublisherShortName_ModuleName::StrongModifier1::StrongModifier2»`
 
->  #### Normal Ashiva Module Reference (without Strong Modifiers)
+>  #### Normal ashivaModule Reference (without Strong Modifiers)
 
 `«PublisherShortName_ModuleName#LightModifier1#LightModifier2»`
 
->  #### Normal Ashiva Module Reference (without any Modifiers)
+>  #### Normal ashivaModule Reference (without any Modifiers)
 
 `«PublisherShortName_ModuleName»`
 

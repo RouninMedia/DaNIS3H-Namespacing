@@ -1,6 +1,16 @@
 # ashivaModule Namespacing
 
-**ashivaModule Namespacing** is the _Module Namespacing System_ employed by **ashiva**.
+**ashivaModule Namespacing** is the _Module Namespacing System_ utilised by **ashiva**.
+
+Each **ashivaModule** is automatically namespaced in order that its scripts and stylesheets don't influence or modify the behaviour or presentation of external elements from the **global** namespace or from other **ashivaModules** included in the same HTML document.
+
+In turn, each **ashivaModule**'s namespacing successfully insulates the behaviour and presentation of that **ashivaModule**'s own elements from being influenced or modified by external scripts or styles from other other **ashivaModules** included in the same HTML document.
+
+Consequently, each **ashivaModule** represents an entirely encapsulated sub-section of the parent HTML document. We may safely continue to add styles and scripts to any **ashivaModule**, confident that no additions will ever result in an unintended alteration of any other part of the HTML document.
+
+This also means that an **ashivaModule** developed for one website may be straightforwardly saved as an **ashivaPackage** JSON file and then deployed on an entirely separate website without risk of incompatibility. (Multiple **ashivaPackages** may also be saved and exported together as a single JSON file called an **ashivaBundle**.)
+
+## Contents:
 
  - The anatomy of an ashivaModule Reference
    - Examples of Full ashivaModule References

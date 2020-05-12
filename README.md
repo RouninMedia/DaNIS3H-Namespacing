@@ -14,6 +14,7 @@
     - ashivaModule References in ashivaModule Codesheets
    
  - ashiva Namespacing Access
+   - `checkNamespaceAccess()` Function
 
 _____
 

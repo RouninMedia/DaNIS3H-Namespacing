@@ -8,10 +8,10 @@
    - Examples of ashivaModule Component References
    
   - ashivaModule References in Files
+    - ashivaModule References in HTML, CSS and Javascript Files
     - ashivaModule References in PHP Files
     - ashivaModule References in ashivaModule Manifests
     - ashivaModule References in ashivaModule Codesheets
-    - ashivaModule References in CSS and Javascript Files
    
  - ashiva Namespacing Access
 

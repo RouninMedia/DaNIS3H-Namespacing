@@ -3,8 +3,8 @@
 **ashiva Namespacing** is the _Module Namespacing System_ employed by **ashiva**.
 
  - The anatomy of an ashivaModule Reference
-  -- Examples of Full ashivaModule References
-  -- Examples of Normal ashivaModule References
+  - Examples of Full ashivaModule References
+  - Examples of Normal ashivaModule References
  - ashiva Namespacing Access
 
 _____

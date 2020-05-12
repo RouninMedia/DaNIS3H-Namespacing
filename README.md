@@ -1,6 +1,6 @@
-# ashiva Namespacing
+# ashivaModule Namespacing
 
-**ashiva Namespacing** is the _Module Namespacing System_ employed by **ashiva**.
+**ashivaModule Namespacing** is the _Module Namespacing System_ employed by **ashiva**.
 
  - The anatomy of an ashivaModule Reference
    - Examples of Full ashivaModule References

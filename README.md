@@ -118,129 +118,146 @@ _____
 ```
 
 ### Examples of ashiva Namespace Access Directives
-
+```
+// NOTHING
 ```
 
-// NOTHING
+```
+"ashivaNamespaceAccess" : {} 
+```
 
+```
+"ashivaNamespaceAccess" : {  
 
-"ashivaNamespaceAccess" : [] 
+  "Active" : false,
+}
+```
 
+```
+"ashivaNamespaceAccess" : { 
 
-"ashivaNamespaceAccess" : [  
-
-  false
-]
-
-
-"ashivaNamespaceAccess" : [ 
-
-  true,
+  "Active" : true,
 
   {}
-]
+}
+```
 
+```
+"ashivaNamespaceAccess" : { 
 
-"ashivaNamespaceAccess" : [ 
-
-  true,
+  "Active" : true,
 
   {
 
     "access" : {}	
   }
-]
+}
+```
 
+```
+"ashivaNamespaceAccess" : {  
 
-"ashivaNamespaceAccess" : [  
-
-  true,
+  "Active" : true,
 
   {
 
     "access" : {"override" : true}	
   }
-]
+}
+```
 
+```
+"ashivaNamespaceAccess" : { 
 
-"ashivaNamespaceAccess" : [ 
-
-  true,
+  "Active" : true,
 
   {
 
     "access" : {"override" : false}	
   }
-]
+}
+```
 
+```
+"ashivaNamespaceAccess" : { 
 
-"ashivaNamespaceAccess" : [ 
-
-  true,
+  "Active" : true,
 
   {
 
     "access" : {"default" : true}	
   }
-]
+}
+```
 
+```
+"ashivaNamespaceAccess" : { 
 
-"ashivaNamespaceAccess" : [ 
-
-  true,
-
-  {
-
-    "access" : {"default" : false}	
-  }
-]
-
-
-"ashivaNamespaceAccess" : [ 
-
-  true,
+  "Active" : true,
 
   {
 
     "access" : {"override" : true, "default" : true}	
   }
-]
+}
+```
 
+```
+"ashivaNamespaceAccess" : { 
 
-"ashivaNamespaceAccess" : [ 
-
-  true,
+  "Active" : true,
 
   {
 
     "access" : {"override" : false, "default" : true}	
   }
-]
+}
+```
 
+```
+"ashivaNamespaceAccess" : { 
 
-"ashivaNamespaceAccess" : [ 
-
-  true,
+  "Active" : true,
 
   {
 
     "access" : {"override" : true, "default" : false}	
   }
-]
+}
+```
 
+```
+"ashivaNamespaceAccess" : { 
 
-"ashivaNamespaceAccess" : [ 
-
-  true,
+  "Active" : true,
 
   {
 
     "access" : {"override" : false, "default" : false}	
   }
-]
+}
+```
 
+```
+"ashivaNamespaceAccess" : {
 
+  "Active" : true,
 
+  "Access_Directives" : {
+    
+    "Global" : {"access" : {"override" : true, "default" : false}, "Ashiva_Control_Pad" : false},
+    "Ashiva_Control_Pad" : {"access" : {"default" : false}, "SB_Colour_Charts" : true},
+    "SB_Body_Data" : {"access" : {"default" : false}, "SB_Colour_Charts" : false},
+    "SB_Colour_Charts" : {"access" : {"default" : false}},
+    "SB_Nail_Categories" : {"access" : {"default" : false}},
+    "SB_Translations::EN" : {"access" : {"default" : false}},
+
+    "access" : {"default" : false}  // <= if absent, considered FALSE    
+  }
+},
+```
+
+```
     "Global" : {},
     "Global" : {"access" : {}},
 
@@ -257,6 +274,53 @@ _____
     "Global" : {"Ashiva_Control_Pad" : true}
     "Global" : {"Ashiva_Control_Pad" : false}
 
+```
+
+```
+"ashivaNamespaceAccess" : {
+
+  "Active" : true,
+
+  {
+    "access" : {"default" : true}
+  },
+
+  {
+    "access" : {"override" : true}
+  },
+
+  {
+    "access" : {"override" : true, "default" : false}
+  },
+
+  {
+    "Global" : {"access" : {"default" : true}}
+  },
+
+  {
+    "Global" : {"access" : {"override" : true}}
+  },
+
+  {
+    "Global" : {"access" : {"override" : true, "default" : false}}
+  },
+
+  {
+    "Global" : {"access" : {"default" : true}, "Ashiva_Control_Pad" : true}
+  },
+
+  {
+    "Global" : {"access" : {"override" : true}, "Ashiva_Control_Pad" : false}
+  },
+
+  {
+    "Global" : {"access" : {"override" : true, "default" : false}, "Ashiva_Control_Pad" : false}
+  },
+
+  {
+    "Global" : {"Ashiva_Control_Pad" : true}
+  }
+}
 ```
 
 

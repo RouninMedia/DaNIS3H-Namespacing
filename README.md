@@ -62,9 +62,9 @@ For more examples of *Full ashivaModule References*, see:
 «PublisherShortName_ModuleName::StrongModifier1::StrongModifier2#LightModifier1#LightModifier2»
 ```
 
-For more examples of *Full ashivaModule References*, see:
+For more examples of *Normal ashivaModule References*, see:
 
- - [Full ashivaModule References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/normal-ashiva-module-references.md)
+ - [Normal ashivaModule References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/normal-ashiva-module-references.md)
 
 
 ### Examples of ashivaModule Component References

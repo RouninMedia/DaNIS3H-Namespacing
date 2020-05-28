@@ -1,4 +1,4 @@
-## The anatomy of an ashivaModule Reference
+## The ashivaModule Reference
 
 An **ashivaModule Reference** consists of *6 sections*:
 

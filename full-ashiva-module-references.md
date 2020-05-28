@@ -1,6 +1,6 @@
 # Examples of Full ashivaModule References
 
-See below all possible configurations of a *Full ashivamodule Reference*:
+See below all possible configurations of a *Full ashivaModule Reference*:
 
 ## Full ashivaModule Reference
 ```

@@ -23,7 +23,7 @@ An **ashivaModule Reference** consists of *6 sections*:
 
 For more examples of *Full ashivaModule References*, see:
 
- - [Full ashivaModule References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/full-ashiva-module-references.md)
+ - [Full ashivaModule References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-module-reference/full-ashiva-module-references.md)
 
 
 ### Normal ashivaModule Reference
@@ -34,4 +34,4 @@ For more examples of *Full ashivaModule References*, see:
 
 For more examples of *Normal ashivaModule References*, see:
 
- - [Normal ashivaModule References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/normal-ashiva-module-references.md)
+ - [Normal ashivaModule References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-module-reference/normal-ashiva-module-references.md)

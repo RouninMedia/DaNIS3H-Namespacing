@@ -69,7 +69,7 @@ For more examples of *Normal ashivaModule References*, see:
  - [Normal ashivaModule References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/normal-ashiva-module-references.md)
 
 
-### Examples of ashivaModule Component References
+### ashivaComponent Reference
 
 >  #### Normal ashivaModule Component Reference
 

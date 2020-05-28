@@ -26,8 +26,8 @@ This also means that an **ashivaModule** developed for one website may be straig
    - Examples of ashivaNamespace Prefixes
    
  - ashiva Namespacing Access
-   - The ashivaNamespace Access Directive
-   - Examples of ashivaNamespace Access Directives
+   - [The ashivaNamespace Access Directive](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-namespacing-access/ashiva-namespace-access-directive.md)
+   - [Examples of ashivaNamespace Access Directives](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-namespacing-access/ashiva-namespace-access-directive-examples.md)
    - [`checkNamespaceAccess()` Function](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-namespacing-access/check-namespace-access-function.md)
 
  - ashivaModule References in ashivaModule Manifests

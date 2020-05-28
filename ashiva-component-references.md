@@ -1,5 +1,9 @@
 # Examples of ashivaComponent References
 
+ - an *ashivaComponent Reference*  is demarcated using: `<...>`
+ - on the left-hand side of `[@]`, an *ashivaComponent Reference* declares the **ashivaComponent**
+ - on the right-hand side of `[@]`, an *ashivaComponent Reference* declares the **ashivaModule**
+
 See below all possible configurations of an *ashivaComponent Reference*:
 
 ## PrimeComponent ashivaComponent Reference

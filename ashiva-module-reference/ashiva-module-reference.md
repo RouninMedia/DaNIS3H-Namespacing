@@ -9,11 +9,7 @@ An **ashivaModule Reference** consists of *6 sections*:
  - The **StrongModifiers** which are *optional*
  - The **LightModifiers** which are *optional*
 
-**Full ashivaModule References** (which begins with the **PublisherName**) appear more rarely.
-
-**Normal ashivaModule References** (which begin with the **PublisherShortName**) are more common.
-
-**ashivaModule Component References** (which begin with the **ComponentType**) are also more common.
+______
 
 ### Full ashivaModule Reference
 
@@ -21,16 +17,21 @@ An **ashivaModule Reference** consists of *6 sections*:
 «PublisherName:::PublisherShortName_ModuleName::StrongModifier1::StrongModifier2#LightMod1#LightMod2»
 ```
 
+**Full ashivaModule References** (which begins with the **PublisherName**) appear more rarely.
+
 For more examples of *Full ashivaModule References*, see:
 
  - [Full ashivaModule References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-module-reference/full-ashiva-module-references.md)
 
+______
 
 ### Normal ashivaModule Reference
 
 ```
 «PublisherShortName_ModuleName::StrongModifier1::StrongModifier2#LightModifier1#LightModifier2»
 ```
+
+**Normal ashivaModule References** (which begin with the **PublisherShortName**) are more common.
 
 For more examples of *Normal ashivaModule References*, see:
 

@@ -4,7 +4,7 @@
 «ComponentType[@]PublisherShortName_ModuleName::StrongModifier1::StrongModifier2#LightMod1#LightMod2»
 ```
 
-**ashivaModule Component References** (which begin with the **ComponentType**) are also more common.
+**ashivaModule Component References** (which often begin with the **ComponentType**) are quite common.
 
 For more examples of *ashivaComponent References*, see:
 

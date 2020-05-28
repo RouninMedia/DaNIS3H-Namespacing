@@ -11,20 +11,6 @@ An **ashivaModule Reference** consists of *6 sections*:
 
 ______
 
-### Full ashivaModule Reference
-
-```
-«PublisherName:::PublisherShortName_ModuleName::StrongModifier1::StrongModifier2#LightMod1#LightMod2»
-```
-
-**Full ashivaModule References** (which begins with the **PublisherName**) appear more rarely.
-
-For more examples of *Full ashivaModule References*, see:
-
- - [Full ashivaModule References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-module-reference/full-ashiva-module-references.md)
-
-______
-
 ### Normal ashivaModule Reference
 
 ```
@@ -36,3 +22,17 @@ ______
 For more examples of *Normal ashivaModule References*, see:
 
  - [Normal ashivaModule References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-module-reference/normal-ashiva-module-references.md)
+ 
+______
+
+### Full ashivaModule Reference
+
+```
+«PublisherName:::PublisherShortName_ModuleName::StrongModifier1::StrongModifier2#LightMod1#LightMod2»
+```
+
+**Full ashivaModule References** (which begins with the **PublisherName**) appear more rarely.
+
+For more examples of *Full ashivaModule References*, see:
+
+ - [Full ashivaModule References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-module-reference/full-ashiva-module-references.md)

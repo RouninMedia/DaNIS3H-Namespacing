@@ -41,7 +41,9 @@ An **ashivaModule Reference** consists of *6 sections*:
  - The **StrongModifiers** which are *optional*
  - The **LightModifiers** which are *optional*
 
-It's rare to see a **Full ashivaModule Reference** (which begins with the **PublisherName**), but **Normal ashivaModule References** (which begin with the **PublisherShortName**) and **ashivaModule Component References** (which begin with the **ComponentType**) are more common.
+It's rare to see a **Full ashivaModule Reference** (which begins with the **PublisherName**).
+
+**Normal ashivaModule References** (which begin with the **PublisherShortName**) and **ashivaModule Component References** (which begin with the **ComponentType**) are more common.
 
 ### Examples of Full ashivaModule References
 
@@ -101,31 +103,73 @@ It's rare to see a **Full ashivaModule Reference** (which begins with the **Publ
 
 _____
 
-## ashivaModule References in Files
+## ashivaModule Namespaces and Namespace References in Files
 
-### ashivaModule References in HTML, CSS and Javascript Files
+### ashiva Namespaces in HTML, CSS and Javascript Files
+
+In a pre-processed ashiva CSS file, such as `/.assets/modules/styles/styles.css`, you can find the following forms:
+
+ - **ashiva Namespace:** `psn-modulename°sm»by»publisherName`
+ - **ashiva Namespace Prefix:** `psn-modulename°sm»by»publisherName»»»`
+
+Note that *light modifiers* are **never included** in either form immediately above.
+
+
 ### ashivaModule References in PHP Files
+
+In a PHP File, any reference is always to a specific Component of an ashivaModule, as follows:
+
+ - Classic Component ashivaModule Reference: `${'<Markup[@]SB_Translations::EN>'}`
+ - Custom Component ashivaModule Reference: `${'<Welcome[@]SB_Translations::EN>'}`
+ - PrimeComponent ashivaModule Reference: `${'<SB_Translations::EN>'}`
+
+
 ### ashivaModule References in ashivaModule Manifests
 
-### ashivaNamespace References in ashivaModule Codesheets
+### ashivaModule References in Da3SH Components
 
-**ashivaNamespace References** may appear in *CSS Codesheets* and *Javascript Codesheets*.
-
-You may add any **ashivaNamespace Reference** to a *Codesheet* using the following **Da3SH Syntax**:
+In **Da3SH Components** `#LightModifiers` are ignored, so:
 
 ```
-{«PublisherName:::PublisherShortName_ModuleName::StrongModifier1#LightModifier1»}
+«PublisherName:::PublisherShortName_ModuleName::StrongModifier1#LightModifier1»
 ```
 
-It is imperative to declare the *selector context* of the **ashivaNamespace Reference**:
+is the same as:
 
- - `#` is the delimiter of an `id` selector context:  `#{«PublisherName:::PublisherShortName_ModuleName»}#`
- - `.` is the delimiter of an `class` selector context:  `.{«PublisherName:::PublisherShortName_ModuleName»}.`
- - `[]` are the delimiters of an `attribute` selector context:  `[{«PublisherName:::PublisherShortName_ModuleName»}]`
- - The start of a selector indicates an `element` selector context:  `{«PublisherName:::PublisherShortName_ModuleName»}`
+```
+«PublisherName:::PublisherShortName_ModuleName::StrongModifier1»
+```
 
+**ashivaNamespace Reference Functions** (the context in which **ashivaModule References** appear in **Da3SH Components**) may be found in 
 
-#### ashivaNamespace References in CSS Selectors
+ - *CSS Da3SH Components*
+ - *Javascript Da3SH Components*
+ - *jsModule Da3SH Components*
+
+Examples of **ashivaNamespace Reference Functions** in a *CSS Da3SH Component*, referencing an **ashivaModule Namespace**:
+
+```
+ - ‹'«Scotia_Beauty:::SB_Translations::EN»', '.nail-products-category'›
+ - ‹'«Scotia_Beauty:::SB_Translations::EN»', '[class=\"sb-translations°en»by»scotiaBeauty»»»nail-products-category\"]'›
+ - ‹'«Scotia_Beauty:::SB_Translations::EN»', '[class=\"nail-products-category\"]'›
+ - ‹'«Scotia_Beauty:::SB_Translations::EN»', '[id=\"sb-translations°en»by»scotiaBeauty»»»nail-products-category\"]'›
+ - ‹'«Scotia_Beauty:::SB_Translations::EN»', '[id=\"nail-products-category\"]'›
+ - ‹'«Scotia_Beauty:::SB_Translations::EN»', '[class=\"nail-products-category\"]'›
+ - ‹'«Scotia_Beauty:::SB_Translations::EN»', 'li strong'›
+```
+
+ Examples of **ashivaNamespace Reference Functions** in a *CSS Da3SH Component*, referencing the **GLOBAL Namespace**:
+
+```
+ - ‹'«GLOBAL»', 'body.ashiva-control-pad-activated'›
+ - ‹'«GLOBAL»', '[id=\"sb-translations°en»by»scotiaBeauty»»»nail-products-category\"]'›
+ - ‹'«GLOBAL»', 'body > [id=\"sb-translations°en»by»scotiaBeauty»»»nail-products-category\"]'›
+ - ‹'«GLOBAL»', '[class=\"nail-products-category\"]'›
+ - ‹'«GLOBAL»', '.canvas footer address p'›
+ - ‹'«GLOBAL»', '.canvas [role=\"search\"] input'› 
+```
+
+#### How ashivaNamespace Reference Functions appear in CSS Da3SH Components:
 
 ```
   {

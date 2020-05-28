@@ -1,6 +1,6 @@
-### ashivaModule References in Da3SH Components
+### ashivaModule References in CSS Da3SH Components
 
-In **Da3SH Components** `#LightModifiers` are ignored, so:
+In **CSS Da3SH Components** `#LightModifiers` are ignored, so:
 
 ```
 «PublisherName:::PublisherShortName_ModuleName::StrongModifier1#LightModifier1»
@@ -11,12 +11,6 @@ is the same as:
 ```
 «PublisherName:::PublisherShortName_ModuleName::StrongModifier1»
 ```
-
-**ashivaNamespace Reference Functions** (the context in which **ashivaModule References** appear in **Da3SH Components**) may be found in 
-
- - *CSS Da3SH Components*
- - *Javascript Da3SH Components*
- - *jsModule Da3SH Components*
 
 Examples of **ashivaNamespace Reference Functions** in a *CSS Da3SH Component*, referencing an **ashivaModule Namespace**:
 

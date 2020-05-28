@@ -1,42 +1,31 @@
-# Examples of Full ashivaModule References
+# Examples of ashivaComponent References
 
-See below all possible configurations of a *Full ashivaModule Reference*:
+See below all possible configurations of an *ashivaComponent Reference*:
 
-## Full ashivaModule Reference
+## PrimeComponent ashivaComponent Reference
 ```
-«PublisherName:::PublisherShortName_ModuleName::StrongModifier1::StrongModifier2#LightMod1#LightMod2»
+<PublisherShortName_ModuleName>
+<PublisherShortName_ModuleName#LightMod1#LightMod2>
+<PublisherShortName_ModuleName::StrongModifier1::StrongModifier2>
+<PublisherShortName_ModuleName::StrongModifier1::StrongModifier2#LightMod1#LightMod2>
 ```
+A *PrimeComponent* declares only the module. The designated *PrimeComponent* is already registered.
 
-## Full ashivaModule Reference (without Light Modifiers)
+## Classic Component ashivaComponent Reference
 ```
-«PublisherName:::PublisherShortName_ModuleName::StrongModifier1::StrongModifier2»
+<Markup[@]PublisherShortName_ModuleName>
+<Markup[@]PublisherShortName_ModuleName#LightMod1#LightMod2>
+<Markup[@]PublisherShortName_ModuleName::StrongModifier1::StrongModifier2>
+<Markup[@]PublisherShortName_ModuleName::StrongModifier1::StrongModifier2#LightMod1#LightMod2>
 ```
+A *Classic Component* may be either `Data`, `Styles`, `Scripts`, `Vectors` or `Markup`.
 
-## Full ashivaModule Reference (without Strong Modifiers)
+
+## Custom Component ashivaComponent Reference
 ```
-«PublisherName:::PublisherShortName_ModuleName#LightModifier1#LightModifier2»
+<List[@]PublisherShortName_ModuleName>
+<List[@]PublisherShortName_ModuleName#LightMod1#LightMod2>
+<List[@]PublisherShortName_ModuleName::StrongModifier1::StrongModifier2>
+<List[@]PublisherShortName_ModuleName::StrongModifier1::StrongModifier2#LightMod1#LightMod2>
 ```
-
-## Full ashivaModule Reference (without any Modifiers)
-```
-«PublisherName:::PublisherShortName_ModuleName»
-```
-
-
-### ashivaComponent Reference
-
->  #### Normal ashivaModule Component Reference
-
-`«ComponentType[@]PublisherShortName_ModuleName::StrongModifier1::StrongModifier2#LightModifier1#LightModifier2»`
-
->  #### Normal ashivaModule Component Reference (without Light Modifiers)
-
-`«ComponentType[@]PublisherShortName_ModuleName::StrongModifier1::StrongModifier2»`
-
->  #### Normal ashivaModule Component Reference (without Strong Modifiers)
-
-`«ComponentType[@]PublisherShortName_ModuleName#LightModifier1#LightModifier2»`
-
->  #### Normal ashivaModule Component Reference (without any Modifiers)
-
-`«ComponentType[@]PublisherShortName_ModuleName»`
+A *Custom Component* may use any label at all (as long as it doesn't match any of the Classic Components).

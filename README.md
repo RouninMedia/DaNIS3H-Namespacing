@@ -12,12 +12,12 @@ This also means that an **ashivaModule** developed for one website may be straig
 
 ## Contents:
 
- - The ashivaModule Reference
-   - Examples of Normal ashivaModule References
-   - Examples of Full ashivaModule References
+ - [The ashivaModule Reference](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-module-reference/ashiva-module-reference.md)
+   - [Examples of Normal ashivaModule References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-module-reference/normal-ashiva-module-references.md)
+   - [Examples of Full ashivaModule References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-module-reference/full-ashiva-module-references.md)
  
- - The ashivaModule Reference
-   - Examples of ashivaModule Component References
+ - [The ashivaComponent Reference](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-component-reference/ashiva-component-reference.md)
+   - [Examples of ashivaModule Component References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-component-reference/ashiva-component-references.md)
    
   - ashivaModule References in Files
     - ashivaModule References in HTML, CSS and Javascript Files

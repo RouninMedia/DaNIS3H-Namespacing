@@ -12,9 +12,11 @@ This also means that an **ashivaModule** developed for one website may be straig
 
 ## Contents:
 
- - The anatomy of an ashivaModule Reference
-   - Examples of Full ashivaModule References
+ - The ashivaModule Reference
    - Examples of Normal ashivaModule References
+   - Examples of Full ashivaModule References
+ 
+ - The ashivaModule Reference
    - Examples of ashivaModule Component References
    
   - ashivaModule References in Files

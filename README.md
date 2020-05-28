@@ -38,7 +38,7 @@ _____
 
 For more examples of *ashivaComponent References*, see:
 
- - [ashivaComponent References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-component-references.md)
+ - [ashivaComponent References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-component-reference/ashiva-component-references.md)
 
 _____
 

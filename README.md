@@ -72,7 +72,7 @@ For more examples of *Normal ashivaModule References*, see:
 ### ashivaComponent Reference
 
 ```
-«ComponentType[@]PublisherShortName_ModuleName::StrongModifier1::StrongModifier2#LightModifier1#LightModifier2»
+«ComponentType[@]PublisherShortName_ModuleName::StrongModifier1::StrongModifier2#LightMod1#LightMod2»
 ```
 
 For more examples of *ashivaComponent References*, see:

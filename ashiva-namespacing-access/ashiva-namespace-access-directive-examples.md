@@ -1,3 +1,5 @@
+# Examples of ashivaNamespace Access Directives
+
 
 ```
 "ashivaNamespaceAccess" : [
@@ -10,3 +12,6 @@
   }
 ]
 ```
+
+
+Convert the rest from the OLD version.

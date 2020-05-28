@@ -1,4 +1,4 @@
-# checkNamespaceAccess() Function
+# `checkNamespaceAccess()` Function
 
 ```
 function checkNamespaceAccess($Module_Name, $Substitute_Namespace, $ashivaNamespaceAccess) {

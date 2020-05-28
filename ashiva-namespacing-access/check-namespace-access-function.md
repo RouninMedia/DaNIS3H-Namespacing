@@ -1,1 +1,1 @@
-
+# `checkNamespaceAccess()` Function

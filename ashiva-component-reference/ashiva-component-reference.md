@@ -1,4 +1,4 @@
-### ashivaComponent Reference
+# The ashivaComponent Reference
 
 ```
 <ComponentType[@]PublisherShortName_ModuleName::StrongModifier1::StrongModifier2#LightMod1#LightMod2>

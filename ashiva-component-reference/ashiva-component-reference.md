@@ -1,5 +1,9 @@
 # The ashivaComponent Reference
 
+ - an *ashivaComponent Reference*  is demarcated using: `<...>`
+ - on the left-hand side of `[@]`, an *ashivaComponent Reference* declares the **ashivaComponent**
+ - on the right-hand side of `[@]`, an *ashivaComponent Reference* declares the **ashivaModule**
+
 ```
 <ComponentType[@]PublisherShortName_ModuleName::StrongModifier1::StrongModifier2#LightMod1#LightMod2>
 ```

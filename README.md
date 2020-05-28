@@ -47,30 +47,24 @@ It's rare to see a **Full ashivaModule Reference** (which begins with the **Publ
 
 ### Full ashivaModule Reference
 
-`«PublisherName:::PublisherShortName_ModuleName::StrongModifier1::StrongModifier2#LightMod1#LightMod2»`
+```
+«PublisherName:::PublisherShortName_ModuleName::StrongModifier1::StrongModifier2#LightMod1#LightMod2»
+```
 
 For more examples of *Full ashivaModule References*, see:
 
  - [Full ashivaModule References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/full-ashiva-module-references.md)
 
 
-### Examples of Normal ashivaModule References
+### Normal ashivaModule Reference
 
->  #### Normal ashivaModule Reference
+```
+«PublisherShortName_ModuleName::StrongModifier1::StrongModifier2#LightModifier1#LightModifier2»
+```
 
-`«PublisherShortName_ModuleName::StrongModifier1::StrongModifier2#LightModifier1#LightModifier2»`
+For more examples of *Full ashivaModule References*, see:
 
->  #### Normal ashivaModule Reference (without Light Modifiers)
-
-`«PublisherShortName_ModuleName::StrongModifier1::StrongModifier2»`
-
->  #### Normal ashivaModule Reference (without Strong Modifiers)
-
-`«PublisherShortName_ModuleName#LightModifier1#LightModifier2»`
-
->  #### Normal ashivaModule Reference (without any Modifiers)
-
-`«PublisherShortName_ModuleName»`
+ - [Full ashivaModule References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/normal-ashiva-module-references.md)
 
 
 ### Examples of ashivaModule Component References

@@ -28,7 +28,7 @@ This also means that an **ashivaModule** developed for one website may be straig
  - ashiva Namespacing Access
    - The ashivaNamespace Access Directive
    - Examples of ashivaNamespace Access Directives
-   - `checkNamespaceAccess()` Function
+   - [`checkNamespaceAccess()` Function](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-namespacing-access/check-namespace-access-function.md)
 
  - ashivaModule References in ashivaModule Manifests
 _____

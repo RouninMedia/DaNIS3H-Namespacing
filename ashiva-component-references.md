@@ -24,7 +24,7 @@ A *Classic Component* may be either `Data`, `Styles`, `Scripts`, `Vectors` or `M
 <List[@]PublisherShortName_ModuleName::StrongModifier1::StrongModifier2>
 <List[@]PublisherShortName_ModuleName::StrongModifier1::StrongModifier2#LightMod1#LightMod2>
 ```
-A *Custom Component* may use any label at all (as long as it doesn't match any of the Classic Components).
+A *Custom Component* may be given any name at all (as long as it doesn't match any of the Classic Components).
 
 
 ## PrimeComponent ashivaComponent Reference
@@ -34,4 +34,4 @@ A *Custom Component* may use any label at all (as long as it doesn't match any o
 <PublisherShortName_ModuleName::StrongModifier1::StrongModifier2>
 <PublisherShortName_ModuleName::StrongModifier1::StrongModifier2#LightMod1#LightMod2>
 ```
-A *PrimeComponent* declares only the module. The designated *PrimeComponent* is already registered.
+A *PrimeComponent* Reference declares only the module. The designated *PrimeComponent* is already registered.

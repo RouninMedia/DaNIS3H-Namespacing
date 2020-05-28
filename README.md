@@ -41,9 +41,11 @@ An **ashivaModule Reference** consists of *6 sections*:
  - The **StrongModifiers** which are *optional*
  - The **LightModifiers** which are *optional*
 
-It's rare to see a **Full ashivaModule Reference** (which begins with the **PublisherName**).
+**Full ashivaModule References** (which begins with the **PublisherName**) appear more rarely.
 
-**Normal ashivaModule References** (which begin with the **PublisherShortName**) and **ashivaModule Component References** (which begin with the **ComponentType**) are more common.
+**Normal ashivaModule References** (which begin with the **PublisherShortName**) are more common.
+
+**ashivaModule Component References** (which begin with the **ComponentType**) are also more common.
 
 ### Full ashivaModule Reference
 

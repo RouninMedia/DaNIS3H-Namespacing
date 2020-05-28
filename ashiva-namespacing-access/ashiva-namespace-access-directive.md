@@ -1,4 +1,4 @@
-### The ashivaNamespace Access Directive
+# The ashivaNamespace Access Directive
 
 ```
 "ashivaNamespaceAccess" : [

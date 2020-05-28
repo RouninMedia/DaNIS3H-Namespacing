@@ -63,17 +63,3 @@ _____
 ## ashiva Namespacing Access
 
 **ashiva Namespacing Access** enables permissions for an **ashivaModule** in one `namespace` to access and modify the styles and scripts of an **ashivaModule** in another `namespace`.
-
-### The ashivaNamespace Access Directive
-
-```
-"ashivaNamespaceAccess" : [
-
-  true,
-
-  {
-    "Ashiva_Control_Pad" : {"access" : {"default" : true}, "Global" : true, "SB_Translations::EN" : true},
-    "access" : {"default" : true}  
-  }
-]
-```

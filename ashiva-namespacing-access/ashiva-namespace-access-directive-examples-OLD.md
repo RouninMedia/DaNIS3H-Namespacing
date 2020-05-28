@@ -1,4 +1,4 @@
-# Examples of ashivaNamespace Access Directives
+# [OLD] Examples of ashivaNamespace Access Directives
 ```
 // NOTHING
 ```

@@ -112,7 +112,7 @@ In a pre-processed ashiva CSS file, such as `/.assets/modules/styles/styles.css`
  - **ashiva Namespace:** `psn-modulename°sm»by»publisherName`
  - **ashiva Namespace Prefix:** `psn-modulename°sm»by»publisherName»»»`
 
-Note that *light modifiers* are **never included** in either form immediately above.
+Note that *light modifiers* are **never needed nor included** in either form immediately above.
 
 
 ### ashivaModule References in PHP Files

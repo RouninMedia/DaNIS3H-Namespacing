@@ -1,8 +1,3 @@
-
-```
-.sb-translations°en•strongmodifier1•strongmodifier2°flexmod1°flexmod2
-```
-
 ## The difference between **Strong Modifiers** and *Flexible Modifiers*
 
 The key thing to remember is that an *ashivaModule* with a **Strong Modifier** ***is*** an ashivaModule.
@@ -53,15 +48,9 @@ Thus,
 
  - `«Scotia_Beauty:::myConsole::welcome#entersFromTop»`
  - `«Scotia_Beauty:::myConsole::welcome#entersFromLeft»`
-
-
-cannot be selected via the class selectors:
-
- - `.myConsole»by»ashiva•welcome°entersFromTop`
- - `.myConsole»by»ashiva•welcome°entersFromLeft`
  
-but instead may be selected via:
+may be selected via:
 
-- `.myConsole»by»ashiva•welcome[data-ashiva-flexmods*="«myConsole›by›ashiva°entersFromLeft»"]`
+- `.myConsole»by»ashiva•welcome[data-ashiva-flexmods*="«myConsole›by›ashiva°entersFromTop»"]`
 - `.myConsole»by»ashiva•welcome[data-ashiva-flexmods*="«myConsole›by›ashiva°entersFromLeft»"]`
 

@@ -12,8 +12,8 @@
 
 Unlike **Strong Modifiers**, *Flexible Modifiers* appear in the markup as custom `data-*` attributes, rather than as class suffixes, like this:
 
- - `<div class="myConsole»by»ashiva•welcome" data-ashiva-modifiers="[«myConsole›by›ashiva°entersFromTop»]">`
- - `<div class="myConsole»by»ashiva•welcome" data-ashiva-modifiers="[«myConsole›by›ashiva°entersFromLeft»]">`
+ - `<div class="myConsole»by»ashiva•welcome" data-ashiva-flexmods="[«myConsole›by›ashiva°entersFromTop»]">`
+ - `<div class="myConsole»by»ashiva•welcome" data-ashiva-flexmods="[«myConsole›by›ashiva°entersFromLeft»]">`
  
 Consequently, any module may have a *Flexible Modifier* which enables it to take on different *behaviour* (via javascript), but maintain exactly the same *presentation* (via CSS).
 
@@ -33,5 +33,7 @@ cannot be selected via the class selector:
  
 but instead may be selected via:
 
-- `.myConsole»by»ashiva•welcome[data-ashiva-modifiers*="«myConsole›by›ashiva°entersFromLeft»"]`
- 
+```
+- .myConsole»by»ashiva•welcome[data-ashiva-flexmods*="«myConsole›by›ashiva°entersFromLeft»"]
+- .myConsole»by»ashiva•welcome[data-ashiva-flexmods*="«myConsole›by›ashiva°entersFromLeft»"]
+```

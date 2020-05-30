@@ -5,7 +5,8 @@
 
 ## The difference between **Strong Modifiers** and *Flexible Modifiers*
 
-The key thing to remember is that an ashivaModule with a **Strong Modifier** ***is*** an ashivaModule. It represents its own distinct ashivaModule, no less than an ashivaModule without such a modifier.
+The key thing to remember is that an ashivaModule with a **Strong Modifier** ***is*** an ashivaModule.
+An ashivaModule with a **Strong Modifier** represents its own distinct ashivaModule, no less than an ashivaModule without such a modifier.
 
 By contrast, an ashivaModule with a *Flexible Modifier* is simply a variant of that ashivaModule without such a modifier.
 

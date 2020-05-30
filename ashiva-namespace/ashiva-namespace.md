@@ -5,11 +5,11 @@
 
 ## The difference between **Strong Modifiers** and *Flexible Modifiers*
 
-The key thing to remember is that an ashivaModule with a **Strong Modifier** ***is*** an ashivaModule.
+The key thing to remember is that an *ashivaModule* with a **Strong Modifier** ***is*** an ashivaModule.
 
-An ashivaModule with a **Strong Modifier** represents its own distinct ashivaModule, no less than an ashivaModule without such a modifier.
+An *ashivaModule* with a **Strong Modifier** represents its own distinct ashivaModule, no less than an *ashivaModule* without such a modifier.
 
-By contrast, an ashivaModule with a *Flexible Modifier* is simply a variant of that ashivaModule without such a modifier.
+By contrast, an *ashivaModule* with a *Flexible Modifier* is simply a variant of that *ashivaModule* without such a modifier.
 
 An analogy may be drawn with website addresses:
 
@@ -26,12 +26,12 @@ In this case, the third address, using the `#` anchor, really is an extension of
 
 By a similar token:
 
-- `<MyModule>` is an ashivaModule Reference, referring to the ashivaModule `«MyPublication:::MyModule»`
-- `<MyModule::London>`, in turn, refers to the ashivaModule `«MyPublication:::MyModule::London»`
+- `<MyModule>` is an *ashivaModule* Reference, referring to the *ashivaModule* `«MyPublication:::MyModule»`
+- `<MyModule::London>`, in turn, refers to the *ashivaModule* `«MyPublication:::MyModule::London»`
 
 By contrast, however:
 
-- `<MyModule::London#Summer>` refers to the `#Summer` variant of the ashivaModule `«MyPublication:::MyModule::London»`
+- `<MyModule::London#Summer>` refers to the `#Summer` variant of the *ashivaModule* `«MyPublication:::MyModule::London»`
 
 This means that:
 

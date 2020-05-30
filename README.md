@@ -35,14 +35,21 @@ _____
 
 ## ashivaModule Namespaces and Namespace References in Files
 
-### ashiva Namespaces in HTML, CSS and Javascript Files
+### ashiva Namespaces in pre-processed CSS and Javascript Files
 
-In a pre-processed ashiva CSS file, such as `/.assets/modules/styles/styles.css`, you can find the following forms:
+In a pre-processed ashiva CSS file, such as `/.assets/modules/styles/styles.css`, you can find the following `id`, `className`, `id-prefix` and `className-prefix`:
 
- - **ashiva Namespace:** `psn-modulename°sm»by»publisherName`
- - **ashiva Namespace Prefix:** `psn-modulename°sm»by»publisherName»»»`
+ - **ashiva Namespace:** `psn-modulename•strongmodifier»by»publisherName`
+ - **ashiva Namespace Prefix:** `psn-modulename•strongmodifier»by»publisherName»»»`
 
-Note that *light modifiers* are **never needed nor included** in either form immediately above.
+Note that *flexible modifiers* are **not included** in the `Namespace` or `Namespace Prefix` immediately above.
+
+Instead, a *flexible modifier* (or *flexmod*) will appear like this:
+
+
+
+### ashiva Namespaces in pre-processed HTML Files
+
 
 
 ### ashivaModule References in PHP Files

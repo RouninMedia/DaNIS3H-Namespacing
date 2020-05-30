@@ -1,6 +1,6 @@
 
 ```
-.sb-translations°en•strongmodifier1•strongmodifier2°flexiblemod1°flexiblemod2
+.sb-translations°en•strongmodifier1•strongmodifier2°flexmod1°flexmod2
 ```
 
 ## The difference between **Strong Modifiers** and *Flexible Modifiers*

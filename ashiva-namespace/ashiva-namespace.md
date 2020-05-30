@@ -21,19 +21,17 @@ By the same token, any module may have a *Flexible Modifier* which enables it to
 
 Thus,
 
-```
- - «Scotia_Beauty:::myConsole::welcome#entersFromTop»
- - «Scotia_Beauty:::myConsole::welcome#entersFromLeft»
-```
+ - `«Scotia_Beauty:::myConsole::welcome#entersFromTop»`
+ - `«Scotia_Beauty:::myConsole::welcome#entersFromLeft»`
 
-cannot be selected via the class selector:
+
+cannot be selected via the class selectors:
 
  - `.myConsole»by»ashiva•welcome°entersFromTop`
  - `.myConsole»by»ashiva•welcome°entersFromLeft`
  
 but instead may be selected via:
 
-```
-- .myConsole»by»ashiva•welcome[data-ashiva-flexmods*="«myConsole›by›ashiva°entersFromLeft»"]
-- .myConsole»by»ashiva•welcome[data-ashiva-flexmods*="«myConsole›by›ashiva°entersFromLeft»"]
-```
+- `.myConsole»by»ashiva•welcome[data-ashiva-flexmods*="«myConsole›by›ashiva°entersFromLeft»"]`
+- `.myConsole»by»ashiva•welcome[data-ashiva-flexmods*="«myConsole›by›ashiva°entersFromLeft»"]`
+

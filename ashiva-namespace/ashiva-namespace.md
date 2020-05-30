@@ -1,2 +1,4 @@
 
-.sb-translations°en•hardmod1•hardmod2°lightmod1°lightmod2
+```
+.sb-translations°en•strongmodifier1•strongmodifier2°lightmod1°lightmod2
+```

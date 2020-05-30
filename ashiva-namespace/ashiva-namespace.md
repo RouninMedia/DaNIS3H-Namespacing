@@ -6,7 +6,7 @@
 ## The difference between **Strong Modifiers** and *Flexible Modifiers*
 
  - **Strong Modifiers** *always* modify styles *and* scripts and may also modify content
- - *Flexible Modifiers* may modify styles *or* scripts and may also modify content
+ - *Flexible Modifiers* ***may*** modify styles *or* scripts and may also modify content
  
 ## What does an HTML Element with *Flexible Modifiers* look like:
 

@@ -19,11 +19,11 @@ This also means that an **ashivaModule** developed for one website may be straig
  - [The ashivaComponent Reference](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-component-reference/ashiva-component-reference.md)
    - [Examples of ashivaComponent References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-component-reference/ashiva-component-references.md)
    
- - The ashivaNamespace
-   - Examples of ashivaNamespaces
+ - [The ashivaNamespace in JS Scripts and CSS Stylesheets](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-namespace/ashiva-namespace.md)
+   - [Examples of ashivaNamespaces in JS Scripts and CSS Stylesheets](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-namespace/ashiva-namespaces.md)
  
- - The ashivaNamespace Prefix
-   - Examples of ashivaNamespace Prefixes
+ - [The ashivaNamespace Prefix in JS Scripts and CSS Stylesheets](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-namespace/ashiva-namespace-prefix.md)
+   - [Examples of ashivaNamespace Prefixes in JS Scripts and CSS Stylesheets](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-namespace/ashiva-namespace-prefixes.md)
    
  - [ashiva Namespacing Access](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-namespacing-access/ashiva-namespacing-access.md)
    - [The ashivaNamespace Access Directive](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-namespacing-access/ashiva-namespace-access-directive.md)

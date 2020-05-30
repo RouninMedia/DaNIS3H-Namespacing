@@ -46,6 +46,7 @@ Note that *flexible modifiers* are **not included** in the `Namespace` or `Names
 
 Instead, a *flexible modifier* (or *flexmod*) will appear like this:
 
+`data-ashiva-flexmods="[«psn-modulename•strongmodifier›by›ashiva°flexmod1», «psn-modulename•strongmodifier›by›ashiva°flexmod2»]"`
 
 
 ### ashiva Namespaces in pre-processed HTML Files

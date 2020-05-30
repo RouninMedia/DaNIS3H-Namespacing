@@ -27,7 +27,7 @@ In this case, the third address, using the `#` anchor, really is an extension of
 By a similar token:
 
 - `<MyModule>` is an ashivaModule Reference, referring to the ashivaModule `«MyPublication:::MyModule»`
-- `<MyModule::London>` is an ashivaModule Reference, referring to the ashivaModule `«MyPublication:::MyModule::London»`
+- `<MyModule::London>`, in turn, refers to the ashivaModule `«MyPublication:::MyModule::London»`
 
 By contrast, however:
 

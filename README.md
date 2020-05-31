@@ -37,11 +37,13 @@ _____
 
 ### ashiva Namespaces in pre-processed CSS and Javascript Files
 
-In a pre-processed ashiva CSS file, such as `/.assets/modules/styles/styles.css`, you can find the following `id`, `className`, `id-prefix` and `className-prefix`:
+In a pre-processed ashiva CSS file, such as `/.assets/modules/styles/styles.css`, you can find the following:
 
  - **ashiva Namespace:**
    - `id="psn-modulename•strongmodifier»by»publisherName"`
    - `class="psn-modulename•strongmodifier»by»publisherName"`
+and
+
  - **ashiva Namespace Prefix:**
    - `id="psn-modulename•strongmodifier»by»publisherName»»»"`
    - `class="psn-modulename•strongmodifier»by»publisherName»»»"`

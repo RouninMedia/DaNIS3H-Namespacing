@@ -39,8 +39,12 @@ _____
 
 In a pre-processed ashiva CSS file, such as `/.assets/modules/styles/styles.css`, you can find the following `id`, `className`, `id-prefix` and `className-prefix`:
 
- - **ashiva Namespace:** `psn-modulename•strongmodifier»by»publisherName`
- - **ashiva Namespace Prefix:** `psn-modulename•strongmodifier»by»publisherName»»»`
+ - **ashiva Namespace:**
+   - `id="psn-modulename•strongmodifier»by»publisherName"`
+   - `class="psn-modulename•strongmodifier»by»publisherName"`
+ - **ashiva Namespace Prefix:**
+   - `id="psn-modulename•strongmodifier»by»publisherName»»»"`
+   - `class="psn-modulename•strongmodifier»by»publisherName»»»"`
 
 Note that *flexible modifiers* are **not included** in the `Namespace` or `Namespace Prefix` immediately above.
 

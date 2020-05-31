@@ -42,13 +42,14 @@ In a pre-processed ashiva CSS file, such as `/.assets/modules/styles/styles.css`
  - **ashiva Namespace:**
    - `id="psn-modulename•strongmodifier»by»publisherName"`
    - `class="psn-modulename•strongmodifier»by»publisherName"`
+
 and
 
  - **ashiva Namespace Prefix:**
    - `id="psn-modulename•strongmodifier»by»publisherName»»»"`
    - `class="psn-modulename•strongmodifier»by»publisherName»»»"`
 
-Note that *flexible modifiers* are **not included** in the `Namespace` or `Namespace Prefix` immediately above.
+But note that *flexible modifiers* are **not included** in the `Namespace` or `Namespace Prefix` immediately above.
 
 Instead, a *flexible modifier* (or *flexmod*) will appear like this:
 

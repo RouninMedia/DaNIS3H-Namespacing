@@ -135,7 +135,7 @@ _______
 
     "Selectors" : [
 
-      "*orange p small"
+      "‹['orange'], 'p small'›"
     ],
 
     "Styles" : {
@@ -149,7 +149,7 @@ _______
 
     "Selectors": [
 
-      "‹'«Ashiva:::Ashiva_Control_Pad»', '*orange p small'›"
+      "‹'«Ashiva:::Ashiva_Control_Pad»', ['orange'], 'p small'›"
     ],
 
     "Styles": {
@@ -163,7 +163,7 @@ _______
 
     "Selectors" : [
 
-      "*purple .smaller"
+      "‹['purple'], '.smaller'›"
     ],
 
     "Styles" : {
@@ -176,7 +176,7 @@ _______
 
     "Selectors" : [
 
-      "‹'«Ashiva:::Ashiva_Control_Pad»', '*purple .smaller'›"
+      "‹'«Ashiva:::Ashiva_Control_Pad»', ['purple'], '.smaller'›"
     ],
 
     "Styles" : {
@@ -188,84 +188,7 @@ _______
   {
     "Selectors" : [
 
-      ".smaller*purple"
-    ],
-
-    "Styles" : {
-
-      "color" : "purple"
-    }
-  },
-
-
-  {
-    "Selectors": [
-
-      "‹'«Ashiva:::Ashiva_Control_Pad»', '.smaller*purple'›"
-    ],
-
-    "Styles": {
-
-      "color": "purple"
-    }
-  },
-
-
-  {
-    "Selectors" : [
-
-      ".smaller *purple"
-    ],
-
-    "Styles" : {
-
-      "color" : "purple"
-    }
-  },
-
-
-  {
-    "Selectors": [
-
-      "‹'«Ashiva:::Ashiva_Control_Pad»', '.smaller *purple'›"
-    ],
-
-    "Styles": {
-
-      "color": "purple"
-    }
-  },
-
-
-  {
-    "Selectors" : [
-
-      "small.smaller*purple"
-    ],
-
-    "Styles" : {
-
-      "color" : "purple"
-    }
-  },
-
-
-  {
-    "Selectors": [
-
-      "‹'«Ashiva:::Ashiva_Control_Pad»', 'small.smaller*purple'›"
-    ],
-
-    "Styles": {
-
-      "color": "purple"
-    }
-  },
-
-  {
-    "Selectors" : [
-
-      "*purple"
+      "‹['purple'], ''›"
     ],
 
     "Styles" : {
@@ -277,7 +200,7 @@ _______
   {
     "Selectors": [
 
-      "‹'«Ashiva:::Ashiva_Control_Pad»', '*purple'›"
+      "‹'«Ashiva:::Ashiva_Control_Pad»', ['purple'], ''›"
     ],
 
     "Styles": {

@@ -70,3 +70,222 @@ In a PHP File, any reference is always to a specific Component of an ashivaModul
 
 
 ### ashivaModule References in ashivaModule Manifests
+
+_______
+
+## Experiments with FlexMods in Da3SH Style Components:
+
+```
+
+[
+
+  {
+    "Selectors" : [
+
+      "small"
+    ],
+
+    "Styles" : {
+
+      "color" : "yellow"
+    }
+  },
+
+
+  {
+    "Selectors": [
+
+      "‹'«Ashiva:::Ashiva_Control_Pad»', 'small'›"
+    ],
+
+    "Styles": {
+
+      "color": "yellow"
+    }
+  },
+
+
+  {
+    "Selectors" : [
+
+      "strong"
+    ],
+
+    "Styles" : {
+
+      "color" : "red"
+    }
+  },
+
+
+  {
+    "Selectors": [
+
+      "‹'«Ashiva:::Ashiva_Control_Pad»', 'strong'›"
+    ],
+
+    "Styles": {
+
+      "color": "red"
+    }
+  },
+
+
+  {
+
+    "Selectors" : [
+
+      "*orange p small"
+    ],
+
+    "Styles" : {
+
+      "color" : "orange"
+    }
+  },
+
+
+  {
+
+    "Selectors": [
+
+      "‹'«Ashiva:::Ashiva_Control_Pad»', '*orange p small'›"
+    ],
+
+    "Styles": {
+
+      "color": "orange"
+    }
+  },
+
+
+  {
+
+    "Selectors" : [
+
+      "*purple .smaller"
+    ],
+
+    "Styles" : {
+
+      "color" : "purple"
+    }
+  },
+
+  {
+
+    "Selectors" : [
+
+      "‹'«Ashiva:::Ashiva_Control_Pad»', '*purple .smaller'›"
+    ],
+
+    "Styles" : {
+
+      "color" : "purple"
+    }
+  },
+
+  {
+    "Selectors" : [
+
+      ".smaller*purple"
+    ],
+
+    "Styles" : {
+
+      "color" : "purple"
+    }
+  },
+
+
+  {
+    "Selectors": [
+
+      "‹'«Ashiva:::Ashiva_Control_Pad»', '.smaller*purple'›"
+    ],
+
+    "Styles": {
+
+      "color": "purple"
+    }
+  },
+
+
+  {
+    "Selectors" : [
+
+      ".smaller *purple"
+    ],
+
+    "Styles" : {
+
+      "color" : "purple"
+    }
+  },
+
+
+  {
+    "Selectors": [
+
+      "‹'«Ashiva:::Ashiva_Control_Pad»', '.smaller *purple'›"
+    ],
+
+    "Styles": {
+
+      "color": "purple"
+    }
+  },
+
+
+  {
+    "Selectors" : [
+
+      "small.smaller*purple"
+    ],
+
+    "Styles" : {
+
+      "color" : "purple"
+    }
+  },
+
+
+  {
+    "Selectors": [
+
+      "‹'«Ashiva:::Ashiva_Control_Pad»', 'small.smaller*purple'›"
+    ],
+
+    "Styles": {
+
+      "color": "purple"
+    }
+  },
+
+  {
+    "Selectors" : [
+
+      "*purple"
+    ],
+
+    "Styles" : {
+
+      "color" : "purple"
+    }
+  },
+
+  {
+    "Selectors": [
+
+      "‹'«Ashiva:::Ashiva_Control_Pad»', '*purple'›"
+    ],
+
+    "Styles": {
+
+      "color": "purple"
+    }
+  }
+
+]
+
+```

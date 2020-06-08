@@ -212,3 +212,135 @@ _______
 ]
 
 ```
+________
+
+# NOTES TO ADD...
+
+```
+body.ashiva-control-pad-activated {
+  width: calc(100vw - 17px);
+  overflow: hidden;
+}
+```
+
+^^^ So what would this come out as, according to the rules below ?
+
+
+It would come out as:
+
+```
+body.ashiva-control-pad-activated {  // <= obviously <body> is excepted from the direct child shenanigans
+  width: calc(100vw - 17px);
+  overflow: hidden;
+}
+```
+
+
+
+======
+
+
+CONCLUSIONS FOR GLOBAL NAMESPACE:
+
+i) ◄GLOBAL» Rule MUST be preceded by body > (UNLESS it begins with body)
+ii) any namespace prefix must be stripped from any id or class attributes containing them
+iii) any <element> or [attribute] selector MUST be unfolded out to include the :not([id*="-filter-"]):not([class*="-filter-"]) qualifier
+
+CONCLUSIONS FOR SUBSTITUTE NAMESPACE:
+
+i) Any Rule beginning with <element> or [attribute] selector MUST be preceded by substitute namespace
+ii) any namespace prefix must be replaced by substitute namespace prefix in any id or class attributes containing them
+
+
+
+
+```
+body > p:not([id*="-filter-"]):not([class*="-filter-"]) {
+
+  color: red;
+}
+```
+
+^^^ THIS IS ABSOLUTELY CORRECT
+
+
+
+EXAMPLES...
+
+
+EXAMPLE 0:  `p`
+
+NO GLOBAL
+```
+.ashiva-control-pad»by»ashiva p {
+
+  color: red;
+}
+```
+
+GLOBAL
+```
+body > p:not([id*="-filter-"]):not([class*="-filter-"]) {
+
+  color: red;
+}
+```
+
+
+
+EXAMPLE 1:  `p.myClass`
+
+NO GLOBAL
+```
+.ashiva-control-pad»by»ashiva p.ashiva-control-pad»by»ashiva»»»myClass {
+
+  color: red;
+}
+```
+
+GLOBAL
+```
+body > p:not([id*="-filter-"]):not([class*="-filter-"]).myClass {
+
+  color: red;
+}
+```
+
+
+EXAMPLE 2:  `.myOtherClass p.myClass`
+
+NO GLOBAL
+```
+.ashiva-control-pad»by»ashiva»»»myOtherClass p.ashiva-control-pad»by»ashiva»»»myClass {
+
+  color: red;
+}
+```
+
+GLOBAL
+```
+body > .myOtherClass p:not([id*="-filter-"]):not([class*="-filter-"]).myClass {
+
+  color: red;
+}
+```
+
+
+
+EXAMPLE 3: `div ul li p.myClass`
+
+NO GLOBAL
+```
+.ashiva-control-pad»by»ashiva div ul li p.ashiva-control-pad»by»ashiva»»»myClass {
+
+  color: red;
+}
+```
+
+GLOBAL
+```
+body > div:not([id*="-filter-"]):not([class*="-filter-"]) ul:not([id*="-filter-"]):not([class*="-filter-"]) li:not([id*="-filter-"]):not([class*="-filter-"]) p:not([id*="-filter-"]):not([class*="-filter-"]).myClass {
+
+  color: red;
+}
+```

@@ -354,7 +354,9 @@ ______
 **ii)** `sb-translations•en•strongmod1•strongmod2»by»scotiaBeauty`
 
 Both of the references above are the same.
+
 **i)** may be considered as a *descriptive notation* of **ii)**
+
 Consequently, **i)** must be regarded as the same as **ii)**.
 
 By the same token, in a Page Manifest:
@@ -364,5 +366,7 @@ By the same token, in a Page Manifest:
 **ii)** `Scotia_Beauty:::SB_Translations::EN::StrongMod1::StrongMod2`
 
 Both of the references above are the same.
+
 **i)** may be considered as a *descriptive notation* of **ii)**
+
 Consequently, **i)** must be regarded as the same as **ii)**.

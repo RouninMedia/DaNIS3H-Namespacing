@@ -359,7 +359,7 @@ Both of the references above are the same.
 
 Consequently, **i)** must be regarded as the same as **ii)**.
 
-By the same token, in a Page Manifest:
+## By the same token, in a Page Manifest...
 
 **i)** `Scotia_Beauty:::SB_Translations::EN::StrongMod1::StrongMod2*FlexMod1*FlexMod2`
 

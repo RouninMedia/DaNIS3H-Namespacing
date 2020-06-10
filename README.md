@@ -344,3 +344,23 @@ body > div:not([id*="-filter-"]):not([class*="-filter-"]) ul:not([id*="-filter-"
   color: red;
 }
 ```
+
+______
+
+## In a Selector Reference...
+
+  **i)** `sb-translations•en•strongmod1•strongmod2°flexmod1°flexmod2»by»scotiaBeauty`
+  **ii)** `sb-translations•en•strongmod1•strongmod2»by»scotiaBeauty`
+
+Both of the references above are the same.
+**i)** may be considered as a *descriptive notation* of **ii)**
+Consequently, **i)** must be regarded as the same as **ii)**.
+
+By the same token, in a Page Manifest:
+
+**i)** `Scotia_Beauty:::SB_Translations::EN::StrongMod1::StrongMod2*FlexMod1*FlexMod2`
+**ii)** `Scotia_Beauty:::SB_Translations::EN::StrongMod1::StrongMod2`
+
+Both of the references above are the same.
+**i)** may be considered as a *descriptive notation* of **ii)**
+Consequently, **i)** must be regarded as the same as **ii)**.

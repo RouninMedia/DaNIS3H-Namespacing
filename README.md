@@ -49,11 +49,11 @@ and
    - `id="psn-modulename•strongmodifier»by»publisherName»»»"`
    - `class="psn-modulename•strongmodifier»by»publisherName»»»"`
 
-But note that *flexible modifiers* are **not included** in the `Namespace` or `Namespace Prefix` immediately above.
+But note that *extension modifiers* are **not included** in the `Namespace` or `Namespace Prefix` immediately above.
 
-Instead, a *flexible modifier* (or *flexmod*) will appear like this:
+Instead, a *extension modifier* (or *x-mod*) will appear like this:
 
-`data-ashiva-flexmods="[«psn-modulename•strongmodifier›by›publisherName°flexmod1», «psn-modulename•strongmodifier›by›publisherName°flexmod2»]"`
+`data-ashiva-xmods="[«psn-modulename•strongmodifier›by›publisherName°xmod1», «psn-modulename•strongmodifier›by›publisherName°xmod2»]"`
 
 
 ### ashiva Namespaces in pre-processed HTML Files
@@ -73,7 +73,7 @@ In a PHP File, any reference is always to a specific Component of an ashivaModul
 
 _______
 
-## Experiments with FlexMods in Da3SH Style Components:
+## Experiments with x-mods in Da3SH Style Components:
 
 ```
 
@@ -349,7 +349,7 @@ ______
 
 ## In a Selector Reference...
 
-**i)** `sb-translations•en•strongmod1•strongmod2°flexmod1°flexmod2»by»scotiaBeauty`
+**i)** `sb-translations•en•strongmod1•strongmod2°xmod1°xmod2»by»scotiaBeauty`
 
 **ii)** `sb-translations•en•strongmod1•strongmod2»by»scotiaBeauty`
 
@@ -361,7 +361,7 @@ Consequently, **i)** must be regarded as the same as **ii)**.
 
 ## By the same token, in a Page Manifest...
 
-**i)** `Scotia_Beauty:::SB_Translations::EN::StrongMod1::StrongMod2*FlexMod1*FlexMod2`
+**i)** `Scotia_Beauty:::SB_Translations::EN::StrongMod1::StrongMod2*xMod1*xMod2`
 
 **ii)** `Scotia_Beauty:::SB_Translations::EN::StrongMod1::StrongMod2`
 

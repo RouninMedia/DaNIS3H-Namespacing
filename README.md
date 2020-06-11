@@ -49,11 +49,11 @@ and
    - `id="psn-modulename•strongmodifier»by»publisherName»»»"`
    - `class="psn-modulename•strongmodifier»by»publisherName»»»"`
 
-Note that *extension modifiers* are **not conventionally included** in the `Namespace` or `Namespace Prefix` immediately above.
+Note that the other kind of modifiers, *extension modifiers*, are **not conventionally included** in the `Namespace` or `Namespace Prefix` immediately above.
 
-Instead, *extension modifiers* (or *x-mods*) will appear like this:
+Instead, *extension modifiers* (or *x-mods*) will appear as custom attributes at the end of the element, like this:
 
-`"... data-°xmod1 data-°xmod2"`
+`<... data-°xmod1 data-°xmod2>`
 
 
 ### ashiva Namespaces in pre-processed HTML Files

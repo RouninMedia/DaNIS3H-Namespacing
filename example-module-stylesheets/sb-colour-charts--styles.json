@@ -1,0 +1,292 @@
+```
+
+[
+
+  {
+    "Selectors" : [
+
+      "small"
+    ],
+
+    "Styles" : {
+
+      "color" : "yellow"
+    }
+  },
+
+  {
+    "Selectors" : [
+
+      "strong"
+    ],
+
+    "Styles" : {
+
+      "color" : "red"
+    }
+  },
+
+
+  {
+
+    "Selectors" : [
+
+      "‹['orange'], 'p small'›"
+    ],
+
+    "Styles" : {
+
+      "color" : "orange"
+    }
+  },
+
+
+  ^^^ This is exactly equivalent to: "[data-*orange] p small"
+
+
+  {
+
+    "Selectors": [
+
+      "‹'«Ashiva:::Ashiva_Control_Pad»', ['orange'], 'p small'›"
+    ],
+
+    "Styles": {
+
+      "color": "orange"
+    }
+  },
+
+
+
+  {
+
+    "Selectors": [
+
+      "‹'«GLOBAL»', '.canvas footer address p:nth-of-type(2)'›"
+    ],
+
+    "Styles": {
+
+      "color": "orange"
+    }
+  },
+
+  {
+
+    "Selectors": [
+
+      "‹'«GLOBAL»', ['orange'], '.canvas footer address p:nth-of-type(2)'›"
+    ],
+
+    "Styles": {
+
+      "color": "orange"
+    }
+  },
+
+
+
+
+
+  {
+
+    "Selectors": [
+
+      "‹'«GLOBAL»', '.canvas div form'›"
+    ],
+
+    "Styles": {
+
+      "color": "red"
+    }
+  },
+
+  {
+
+    "Selectors": [
+
+      "‹'«GLOBAL»', ['orange'], '.canvas div form'›"
+    ],
+
+    "Styles": {
+
+      "color": "red"
+    }
+  },
+
+
+  {
+
+    "Selectors": [
+
+      "‹'«GLOBAL»', '.canvas div[role=\"search\"] form'›"
+    ],
+
+    "Styles": {
+
+      "color": "orange"
+    }
+  },
+
+  {
+
+    "Selectors": [
+
+      "‹'«GLOBAL»', ['orange'], '.canvas div[role=\"search\"] form'›"
+    ],
+
+    "Styles": {
+
+      "color": "orange"
+    }
+  },
+
+  {
+
+    "Selectors": [
+
+      "‹'«GLOBAL»', '.canvas div[role=\"search\"] form[class=\"search\"]'›"
+    ],
+
+    "Styles": {
+
+      "color": "yellow"
+    }
+  },
+
+  {
+
+    "Selectors": [
+
+      "‹'«GLOBAL»', ['orange'], '.canvas div[role=\"search\"] form[class=\"search\"]'›"
+    ],
+
+    "Styles": {
+
+      "color": "yellow"
+    }
+  },
+
+
+  {
+
+    "Selectors": [
+
+      "‹'«Scotia_Beauty:::SB_Translations::EN»', '.canvas div form'›"
+    ],
+
+    "Styles": {
+
+      "color": "red"
+    }
+  },
+
+  {
+
+    "Selectors": [
+
+      "‹'«Scotia_Beauty:::SB_Translations::EN»', ['orange'], '.canvas div form'›"
+    ],
+
+    "Styles": {
+
+      "color": "red"
+    }
+  },
+
+  {
+
+    "Selectors": [
+
+      "‹'«Scotia_Beauty:::SB_Translations::EN*Orange»', ['orange'], '.canvas div form'›"
+    ],
+
+    "Styles": {
+
+      "color": "red"
+    }
+  },
+
+
+  {
+
+    "Selectors": [
+
+      "‹'«Scotia_Beauty:::SB_Translations::EN»', '#canvas div[role=\"search\"] form'›"
+    ],
+
+    "Styles": {
+
+      "color": "orange"
+    }
+  },
+
+  {
+
+    "Selectors": [
+
+      "‹'«Scotia_Beauty:::SB_Translations::EN»', ['orange'], '#canvas div[role=\"search\"] form'›"
+    ],
+
+    "Styles": {
+
+      "color": "orange"
+    }
+  },
+
+  {
+
+    "Selectors": [
+
+      "‹'«Scotia_Beauty:::SB_Translations::EN*Orange»', ['orange'], '#canvas div[role=\"search\"] form'›"
+    ],
+
+    "Styles": {
+
+      "color": "orange"
+    }
+  },
+
+  {
+
+    "Selectors": [
+
+      "‹'«Scotia_Beauty:::SB_Translations::EN»', 'canvas div[role=\"search\"] form[class=\"search\"]'›"
+    ],
+
+    "Styles": {
+
+      "color": "yellow"
+    }
+  },
+
+  {
+
+    "Selectors": [
+
+      "‹'«Scotia_Beauty:::SB_Translations::EN»', ['orange'], 'canvas div[role=\"search\"] form[class=\"search\"]'›"
+    ],
+
+    "Styles": {
+
+      "color": "yellow"
+    }
+  },
+
+  {
+
+    "Selectors": [
+
+      "‹'«Scotia_Beauty:::SB_Translations::EN*Orange»', ['orange'], 'canvas div[role=\"search\"] form[class=\"search\"]'›"
+    ],
+
+    "Styles": {
+
+      "color": "yellow"
+    }
+  }
+
+]
+
+```

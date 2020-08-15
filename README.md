@@ -1,6 +1,6 @@
 # ashivaModule Namespacing
 
-**ashivaModule Namespacing** is the _Module Namespacing System_ utilised by the **ashiva** Digital Development & Publishing Platform.
+**ashivaModule Namespacing** is the _Module Namespacing System_ utilised by **ashiva**.
 
 Each **ashivaModule** is automatically namespaced in order that its scripts and stylesheets don't influence or modify the behaviour or presentation of external elements from the **global** namespace or from other **ashivaModules** included in the same HTML document.
 

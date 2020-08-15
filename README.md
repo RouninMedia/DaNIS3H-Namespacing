@@ -8,7 +8,7 @@ In turn, each **ashivaModule**'s namespacing successfully shields the behaviour 
 
 Consequently, each **ashivaModule** represents an entirely encapsulated sub-section of the parent HTML document. We may safely continue to add styles and scripts to any **ashivaModule**, confident that none of these additions will inadvertently modify any other part of the HTML document.
 
-This *also* means that an **ashivaModule** developed for one website may be straightforwardly saved as an **ashivaPackage** JSON file and then deployed on an entirely separate website without risk of incompatibility. (Multiple **ashivaPackages** may also be saved and exported together as a single JSON file called an **ashivaBundle**.)
+This *also* means that an **ashivaModule** developed for one website may be straightforwardly serialised as an **ashivaPackage** JSON file and then deployed on an entirely separate website without risk of incompatibility. (Multiple **ashivaPackages** may also be saved and exported together as a single JSON file called an **ashivaBundle**.)
 
 ## Contents:
 

@@ -2,7 +2,7 @@
 
 **ashivaModule Namespacing** is the _Module Namespacing System_ utilised by **ashiva**.
 
-Each **ashivaModule** is automatically namespaced in order that its scripts and stylesheets don't influence or modify the behaviour or presentation of external elements from the **global** namespace or from other **ashivaModules** included in the same HTML document.
+Each **ashivaModule** is automatically namespaced in order that the module's scripts and stylesheets don't influence the behaviour or presentation of elements in the **global** namespace or elements in other **ashivaModules** within the same HTML document.
 
 In turn, each **ashivaModule**'s namespacing successfully shields the behaviour and presentation of that **ashivaModule**'s own elements from being influenced or modified by external scripts or styles from other other **ashivaModules** included in the same HTML document.
 

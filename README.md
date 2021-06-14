@@ -1,51 +1,51 @@
-# ashivaModule Namespacing
+# DaNIS3H Module Namespacing
 
-**ashivaModule Namespacing** is the _Module Namespacing System_ utilised by **ashiva**.
+**DaNIS3H Module Namespacing** is the _Module Namespacing System_ utilised by **DaNIS3H**.
 
-Each **ashivaModule** is automatically namespaced in order that the module's scripts and stylesheets don't influence the behaviour or presentation of elements in the **global** namespace or elements in other **ashivaModules** within the same HTML document.
+Each **DaNIS3H Module** is automatically namespaced in order that the module's scripts and stylesheets don't influence the behaviour or presentation of elements in the **global** namespace or elements in other **DaNIS3H Modules** within the same HTML document.
 
-In turn, each **ashivaModule**'s namespacing successfully shields the behaviour and presentation of that **ashivaModule**'s own elements from being influenced or modified by scripts or styles from other **ashivaModules** within the same HTML document.
+In turn, each **DaNIS3H Module**'s namespacing successfully shields the behaviour and presentation of that **DaNIS3H Module**'s own elements from being influenced or modified by scripts or styles from other **DaNIS3H Modules** within the same HTML document.
 
-Consequently, each **ashivaModule** represents an entirely encapsulated sub-section of the parent HTML document. We may safely continue to add styles and scripts to any **ashivaModule**, confident that none of these additions will inadvertently modify any other part of the HTML document.
+Consequently, each **DaNIS3H Module** represents an entirely encapsulated sub-section of the parent HTML document. We may safely continue to add styles and scripts to any **DaNIS3H Module**, confident that none of these additions will inadvertently modify any other part of the HTML document.
 
-This *also* means that an **ashivaModule** developed for one website may be straightforwardly serialised as an **ashivaPackage** JSON file and then deployed on an entirely separate website without risk of incompatibility. (Multiple **ashivaPackages** may also be saved and exported together as a single JSON file called an **ashivaBundle**.)
+This *also* means that an **DaNIS3H Module** developed for one website may be straightforwardly serialised as an **DaNIS3H Package** JSON file and then deployed on an entirely separate website without risk of incompatibility. (Multiple **DaNIS3H Packages** may also be saved and exported together as a single JSON file called an **DaNIS3H Bundle**.)
 
 ## Contents:
 
- - [The ashivaModule Reference](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-module-reference/ashiva-module-reference.md)
-   - [Examples of Normal ashivaModule References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-module-reference/normal-ashiva-module-references.md)
-   - [Examples of Full ashivaModule References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-module-reference/full-ashiva-module-references.md)
+ - [The DaNIS3H Module Reference](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-module-reference/ashiva-module-reference.md)
+   - [Examples of Normal DaNIS3H Module References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-module-reference/normal-ashiva-module-references.md)
+   - [Examples of Full DaNIS3H Module References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-module-reference/full-ashiva-module-references.md)
  
- - [The ashivaComponent Reference](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-component-reference/ashiva-component-reference.md)
-   - [Examples of ashivaComponent References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-component-reference/ashiva-component-references.md)
+ - [The DaNIS3H Component Reference](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-component-reference/ashiva-component-reference.md)
+   - [Examples of DaNIS3H Component References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-component-reference/ashiva-component-references.md)
    
- - [The ashivaNamespace in JS Scripts and CSS Stylesheets](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-namespace/ashiva-namespace.md)
-   - [Examples of ashivaNamespaces in JS Scripts and CSS Stylesheets](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-namespace/ashiva-namespaces.md)
+ - [The DaNIS3H Namespace in JS Scripts and CSS Stylesheets](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-namespace/ashiva-namespace.md)
+   - [Examples of DaNIS3H Namespaces in JS Scripts and CSS Stylesheets](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-namespace/ashiva-namespaces.md)
  
- - [The ashivaNamespace Prefix in JS Scripts and CSS Stylesheets](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-namespace/ashiva-namespace-prefix.md)
-   - [Examples of ashivaNamespace Prefixes in JS Scripts and CSS Stylesheets](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-namespace/ashiva-namespace-prefixes.md)
+ - [The DaNIS3H Namespace Prefix in JS Scripts and CSS Stylesheets](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-namespace/ashiva-namespace-prefix.md)
+   - [Examples of DaNIS3H Namespace Prefixes in JS Scripts and CSS Stylesheets](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-namespace/ashiva-namespace-prefixes.md)
    
- - [ashiva Namespacing Access](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-namespacing-access/ashiva-namespacing-access.md)
-   - [The ashivaNamespace Access Directive](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-namespacing-access/ashiva-namespace-access-directive.md)
-   - [Examples of ashivaNamespace Access Directives](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-namespacing-access/ashiva-namespace-access-directive-examples.md)
+ - [DaNIS3H Namespacing Access](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-namespacing-access/ashiva-namespacing-access.md)
+   - [The DaNIS3H Namespace Access Directive](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-namespacing-access/ashiva-namespace-access-directive.md)
+   - [Examples of DaNIS3H Namespace Access Directives](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-namespacing-access/ashiva-namespace-access-directive-examples.md)
    - [`checkNamespaceAccess()` Function](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-namespacing-access/check-namespace-access-function.md)
 
- - ashivaModule References in ashivaModule Manifests
+ - DaNIS3H Module References in DaNIS3H Module Manifests
 _____
 
-## ashivaModule Namespaces and Namespace References in Files
+## DaNIS3H Module Namespaces and Namespace References in Files
 
-### ashiva Namespaces in pre-processed CSS and Javascript Files
+### DaNIS3H Namespaces in pre-processed CSS and Javascript Files
 
-In a pre-processed ashiva CSS file, such as `/.assets/modules/styles/styles.css`, you can find the following:
+In a pre-processed DaNIS3H CSS file, such as `/.assets/modules/styles/styles.css`, you can find the following:
 
- - **ashiva Namespace:**
+ - **DaNIS3H Namespace:**
    - `id="psn-modulename•strongmodifier»by»publisherName"`
    - `class="psn-modulename•strongmodifier»by»publisherName"`
 
 and
 
- - **ashiva Namespace Prefix:**
+ - **DaNIS3H Namespace Prefix:**
    - `id="psn-modulename•strongmodifier»by»publisherName»»»"`
    - `class="psn-modulename•strongmodifier»by»publisherName»»»"`
 
@@ -56,24 +56,24 @@ Instead, *extension modifiers* (or *x-mods*) will appear as custom attributes at
 `<... data-°xmod1 data-°xmod2>`
 
 
-### ashiva Namespaces in pre-processed HTML Files
+### DaNIS3H Namespaces in pre-processed HTML Files
 
 
 
-### ashivaModule References in PHP Files
+### DaNIS3H Module References in PHP Files
 
-In a PHP File, any reference is always to a specific Component of an ashivaModule, as follows:
+In a PHP File, any reference is always to a specific Component of an DaNIS3H Module, as follows:
 
- - Classic Component ashivaModule Reference: `${'<Markup[@]SB_Translations::EN>'}`
- - Custom Component ashivaModule Reference: `${'<Welcome[@]SB_Translations::EN>'}`
- - PrimeComponent ashivaModule Reference: `${'<SB_Translations::EN>'}`
+ - Classic Component DaNIS3H Module Reference: `${'<Markup[@]SB_Translations::EN>'}`
+ - Custom Component DaNIS3H Module Reference: `${'<Welcome[@]SB_Translations::EN>'}`
+ - PrimeComponent DaNIS3H Module Reference: `${'<SB_Translations::EN>'}`
 
 
-### ashivaModule References in ashivaModule Manifests
+### DaNIS3H Module References in DaNIS3H Module Manifests
 
 _______
 
-## Experiments with x-mods in Da3SH Style Components:
+## Experiments with x-mods in DaNIS3H Style Components:
 
 ```
 

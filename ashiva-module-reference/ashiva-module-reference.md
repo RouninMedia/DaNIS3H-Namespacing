@@ -1,6 +1,6 @@
 ## The ashivaModule Reference
 
-An **ashivaModule Reference** consists of *6 sections*:
+An **ashivaModule Reference** consists of *5 sections*:
 
  - The **PublisherName** which is *usually omitted* but in certain contexts is *obligatory*
  - The **PublisherShortName** which is *obligatory*

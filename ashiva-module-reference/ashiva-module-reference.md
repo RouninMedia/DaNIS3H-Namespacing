@@ -13,8 +13,8 @@ ______
 ### Normal ashivaModule References:
 
 ```
- - «PublisherShortName_ModuleName::StrongModifier1_Key:StrongModifier1_Value::StrongModifier2_Key:StrongModifier2_Value#LightModifier1_Key:LightModifier1_Value#LightModifier2_Key:LightModifier2_Value»
- - «PublisherShortName_ModuleName::StrongModifier1_Value::StrongModifier2_Value#LightModifier1_Value#LightModifier2_Value»
+ - «PublisherShortName_ModuleName::StrongModifier1_Key:StrongModifier1_Value::StrongModifier2_Key:StrongModifier2_Value#LightMod1_Key:LightMod1_Value#LightMod2_Key:LightMod2_Value»
+ - «PublisherShortName_ModuleName::StrongModifier1_Value::StrongModifier2_Value#LightMod1_Value#LightMod2_Value»
 
 ```
 
@@ -29,10 +29,12 @@ ______
 ### Full ashivaModule Reference
 
 ```
-«PublisherName:::PublisherShortName_ModuleName::StrongModifier1::StrongModifier2#LightMod1#LightMod2»
+ -
+«PublisherName:::PublisherShortName_ModuleName::StrongModifier1_Key:StrongModifier1_Value::StrongModifier2_Key:StrongModifier2_Value#LightMod1_Key:LightMod1_Value#LightMod2_Key:LightMod2_Value»
+ - «PublisherName:::PublisherShortName_ModuleName::StrongModifier1_Value::StrongModifier2_Value#LightMod1_Value#LightMod2_Value»
 ```
 
-**Full ashivaModule References** (which begins with the **PublisherName**) appear more rarely.
+**Full ashivaModule References** (which begin with the **PublisherName**) appear more rarely.
 
 For more examples of *Full ashivaModule References*, see:
 

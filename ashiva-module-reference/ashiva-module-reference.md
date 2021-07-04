@@ -56,38 +56,56 @@ All I really need to know before introducing this new syntax is: is it any slowe
 
 ### PHP syntax with LIGHT modifiers
 `dm('<SB_Notice sponsor-melanie>');` - parse string and use &${'<SB_Notice>'} AND ['sponsor-melanie'] inside function
+
 `dm('<SB_Notice covid-19>');`
+
 `dm('<SB_Notice brexit>');`
 
-`danis3hModule('<SB_Notice content="sponsor-melanie">');` - parse string and use &${'<SB_Notice>'} AND ['content' => 'sponsor-melanie'] inside function
-`danis3hModule('<SB_Notice content="covid-19">');`
-`danis3hModule('<SB_Notice content="brexit">');`
+
+`dm('<SB_Notice content="sponsor-melanie">');` - parse string and use &${'<SB_Notice>'} AND ['content' => 'sponsor-melanie'] inside function
+
+`dm('<SB_Notice content="covid-19">');`
+
+`dm('<SB_Notice content="brexit">');`
 
 ### Front-end syntax with LIGHT modifiers
 `<!--[ <SB_Notice sponsor-melanie> ]-->` 
+
 `<!--[ <SB_Notice covid-19> ]-->`     
+
 `<!--[ <SB_Notice brexit> ]-->`
 
+
 `<!--[ <SB_Notice content="sponsor-melanie"> ]-->`
+
 `<!--[ <SB_Notice content="covid-19"> ]-->`    
+
 `<!--[ <SB_Notice content="brexit"> ]-->`
 
 but not...
 
 ### PHP syntax with STRONG modifiers
-`danis3hModule('<SB_Notice Sponsor_Melanie>');` - parse string and use &${'<SB_Notice::Sponsor_Melanie>'} inside function
-`danis3hModule('<SB_Notice COVID_19>');`
-`danis3hModule('<SB_Notice Brexit>');`
+`dm('<SB_Notice Sponsor_Melanie>');` - parse string and use &${'<SB_Notice::Sponsor_Melanie>'} inside function
 
-`danis3hModule('<SB_Notice Content="Sponsor_Melanie">');` - parse string and use &${'<SB_Notice::Content:Sponsor_Melanie>'} inside function
-`danis3hModule('<SB_Notice Content="COVID_19">');`
-`danis3hModule('<SB_Notice Content="Brexit">');`
+`dm('<SB_Notice COVID_19>');`
+
+`dm('<SB_Notice Brexit>');`
+
+
+`dm('<SB_Notice Content="Sponsor_Melanie">');` - parse string and use &${'<SB_Notice::Content:Sponsor_Melanie>'} inside function
+
+`dm('<SB_Notice Content="COVID_19">');`
+
+`dm('<SB_Notice Content="Brexit">');`
 
 ### Front-end syntax with STRONG modifiers
 `<!--[ <SB_Notice COVID_19> ]-->`
+
 `<!--[ <SB_Notice Brexit> ]-->`
 
+
 `<!--[ <SB_Notice Content="COVID_19"> ]-->`
+
 `<!--[ <SB_Notice Content="Brexit"> ]-->`
 
 
@@ -95,10 +113,12 @@ but not...
 
 ### PHP syntax with STRONG modifiers
 `danis3hModule(${'<SB_Notice::Content:COVID_19>'});`
+
 `danis3hModule(${'<SB_Notice::Content:Brexit>'});`
 
 ### PHP syntax with LIGHT modifiers
 `danis3hModule(${'<SB_Notice>'}, ['Content' => 'COVID_19']);`
+
 `danis3hModule(${'<SB_Notice>'}, ['Content' => 'Brexit']);`
 
 

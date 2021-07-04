@@ -1,6 +1,6 @@
 ## Reference Notation for DaNIS3H Modules
 
-An **Reference Notation** consists of *6 sections*:
+A **Reference Notation** consists of *6 sections*:
 
  - The **PublisherName** which is *usually omitted* but in certain contexts is *obligatory*
  - The **Imprint** which is *usually omitted* but in certain contexts is *obligatory*

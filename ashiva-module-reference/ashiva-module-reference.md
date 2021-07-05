@@ -115,7 +115,7 @@ print_r(${$My_Module['Strong_Modifiers']['Content']});
 ?>
 ```
 
-*So far so good - still need to convert:*
+*So far so good. Still need to convert:*
     
     '<My_Module Content="Fruitbowl" Fishbowl content="fruitbowl" fishbowl>'
     

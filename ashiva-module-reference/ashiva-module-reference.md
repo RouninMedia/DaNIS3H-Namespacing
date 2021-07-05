@@ -45,6 +45,97 @@ For more examples of *Full References*, see:
 ________
 ________
 
+```
+
+<?php
+
+$Fruitbowl = [
+  "apple",
+  "banana",
+  "cherry"
+];
+
+function dm($danis3hModule) {
+    
+  extract($GLOBALS);
+  
+  $danis3hModule = str_replace(['<', '>'], '', $danis3hModule);
+  
+  $Strong_Modifier_Set = explode('#', $danis3hModule)[0];
+  $Strong_Modifiers = explode('::', $Strong_Modifier_Set);
+  array_shift($Strong_Modifiers);
+
+  $Light_Modifier_Set = str_replace($Strong_Modifier_Set, '', $danis3hModule);
+  $Light_Modifiers = explode('#', $Light_Modifier_Set);
+  array_shift($Light_Modifiers);
+  
+  $Strong_Modifiers_Array = [];
+  $Light_Modifiers_Array = [];
+  
+  $Modifiers = [$Strong_Modifiers, $Light_Modifiers];
+  
+  for ($i = 0; $i < count($Modifiers); $i++) {
+    
+    $Modifiers_Array = [];
+  
+    for ($j = 0; $j < count($Modifiers[$i]); $j++) {
+      
+      $Modifier = explode(':', $Modifiers[$i][$j]);
+  
+      if (strpos($Modifiers[$i][$j], ':') === FALSE) {
+      
+        $Modifiers_Array[(count($Modifiers[$i]) - 1)] = $Modifier[0];
+      }
+    
+      else {
+      
+        $Modifiers_Array[$Modifier[0]] = $Modifier[1];
+      }
+    }
+    
+    if ($Modifiers[$i] === $Strong_Modifiers) {
+    
+      $Module['Strong_Modifiers'] = $Modifiers_Array;
+    }
+    
+    elseif ($Modifiers[$i] === $Light_Modifiers) {
+    
+      $Module['Light_Modifiers'] = $Modifiers_Array;  
+    }
+  }
+  
+  return $Module;
+}
+
+$My_Module = dm('<My_Module::Content:Fruitbowl::Fishbowl#content:fruitbowl#fishbowl>');
+
+print_r($My_Module);
+
+print_r(${$My_Module['Strong_Modifiers']['Content']});
+
+/*
+So far so good - still need to convert:
+    
+'<My_Module Content="Fruitbowl" Fishbowl content="fruitbowl" fishbowl>'
+    
+into:
+
+'<My_Module::Content:Fruitbowl::Fishbowl#content:fruitbowl#fishbowl>'
+
+because the *real* dm() function will look like this:
+    
+$My_Module = dm('<My_Module Content="Fruitbowl" Fishbowl content="fruitbowl" fishbowl>');
+*/
+
+?>
+
+
+
+```
+
+________
+________
+
     dm('<SB_Colour_Charts>');                                         <!--[ <SB_Colour_Charts> ]-->                         
     dm('<SB_Notice Orange Yellow>');                                  <!--[ <SB_Notice Orange Yellow> ]-->              
     dm('<SB_Notice Bg="Orange" Fg="Yellow">');                        <!--[ <SB_Notice Bg="Orange" Fg="Yellow"> ]-->

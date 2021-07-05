@@ -45,6 +45,27 @@ For more examples of *Full References*, see:
 ________
 ________
 
+    dm('<SB_Colour_Charts>');                                         <!--[ <SB_Colour_Charts> ]-->                         
+    dm('<SB_Notice Orange Yellow>');                                  <!--[ <SB_Notice Orange Yellow> ]-->              
+    dm('<SB_Notice Bg="Orange" Fg="Yellow">');                        <!--[ <SB_Notice Bg="Orange" Fg="Yellow"> ]-->
+    dm('<SB_nextPage :context="page">');                              <!--[ <SB_nextPage :context="page"> ]-->
+    dm('<SB_Body_Data :context="element">');                          <!--[ <SB_Body_Data :context="element"> ]-->
+    dm('<SB_Body_Data :critical="false" :context="element">');        <!--[ <SB_Body_Data :critical="false" :context="element"> ]-->
+    dm('<SB_Colour_Charts orange yellow>');                           <!--[ <SB_Colour_Charts orange yellow> ]-->
+    dm('<SB_Colour_Charts bg="orange" fg="yellow">');                 <!--[ <SB_Colour_Charts bg="orange" fg="yellow"> ]-->
+    dm('<Markup[@]SB_Translations>');                                 <!--[ <Markup[@]SB_Translations> ]-->
+    dm('<Language_Folder[@]SB_Translations>');                        <!--[ <Language_Folder[@]SB_Translations> ]-->
+
+**N.B.** `Strong Modifiers` start with *Capital Letters*, `Light Modifiers` start with *lowercase letters*
+
+`<SB_Notice Bg="Orange" Fg="Yellow" top="12" left="12">` (or `Scotia_Beauty:::SB_Notice::BG:Orange::FG:Yellow#top:12#left:12`)
+
+CALLS THE SAME DaNIS3H MODULE AS:
+
+`<SB_Notice Bg="Orange" Fg="Yellow">` (or `Scotia_Beauty:::SB_Notice::BG:Orange::FG:Yellow`)
+
+
+
 CONSIDER:
 
 Currently, `<SB_Notice::COVID_19>` and `<SB_Notice::Brexit>` are TWO DISTINCT da3shModules (by virtue of the Strong Modifiers).

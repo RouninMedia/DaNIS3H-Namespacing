@@ -46,7 +46,6 @@ ________
 ________
 
 ```
-
 <?php
 
 $Fruitbowl = [
@@ -128,9 +127,6 @@ $My_Module = dm('<My_Module Content="Fruitbowl" Fishbowl content="fruitbowl" fis
 */
 
 ?>
-
-
-
 ```
 
 ________

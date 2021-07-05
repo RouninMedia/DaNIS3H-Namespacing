@@ -68,9 +68,6 @@ function dm($danis3hModule) {
   $Light_Modifiers = explode('#', $Light_Modifier_Set);
   array_shift($Light_Modifiers);
   
-  $Strong_Modifiers_Array = [];
-  $Light_Modifiers_Array = [];
-  
   $Modifiers = [$Strong_Modifiers, $Light_Modifiers];
   
   for ($i = 0; $i < count($Modifiers); $i++) {

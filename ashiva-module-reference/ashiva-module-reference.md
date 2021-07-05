@@ -1,6 +1,6 @@
 ## Reference Notation for DaNIS3H Modules
 
-A **Reference Notation** consists of *6 sections*:
+A **DaNIS3H Module Reference Notation** consists of *6 sections*:
 
  - The **PublisherName** which is *usually omitted* but in certain contexts is *obligatory*
  - The **Imprint** which is *usually omitted* but in certain contexts is *obligatory*
@@ -11,7 +11,7 @@ A **Reference Notation** consists of *6 sections*:
 
 ______
 
-### Normal Reference Notation:
+### Normal DaNIS3H Module Reference Notation:
 
 ```
 «PublisherShortName_ModuleName::StrongModifier1_Key:StrongModifier1_Value::StrongModifier2_Key:StrongModifier2_Value#LightMod1_Key:LightMod1_Value#LightMod2_Key:LightMod2_Value»
@@ -19,7 +19,7 @@ ______
 «PublisherShortName_ModuleName::StrongModifier1_Value::StrongModifier2_Value#LightMod1_Value#LightMod2_Value»
 ```
 
-**Normal References** (which begin with the **PublisherShortName**) are the most common type of reference.
+**Normal DaNIS3H Module References** (which begin with the **PublisherShortName**) are the most common type of reference.
 
 For more examples of *Normal References*, see:
 
@@ -27,7 +27,7 @@ For more examples of *Normal References*, see:
  
 ______
 
-### Full Reference Notation:
+### Full DaNIS3H Module Reference Notation:
 
 ```
 «PublisherName:::Imprint:::PublisherShortName_ModuleName::StrongModifier1_Key:StrongModifier1_Value::StrongModifier2_Key:StrongModifier2_Value#LightMod1_Key:LightMod1_Value#LightMod2_Key:LightMod2_Value»
@@ -35,7 +35,7 @@ ______
 «PublisherName:::Imprint:::PublisherShortName_ModuleName::StrongModifier1_Value::StrongModifier2_Value#LightMod1_Value#LightMod2_Value»
 ```
 
-**Full References** (which begin with the **PublisherName** and may include an **Imprint**) appear more rarely.
+**Full DaNIS3H Module References** (which begin with the **PublisherName** and may include an **Imprint**) appear more rarely.
 
 For more examples of *Full References*, see:
 

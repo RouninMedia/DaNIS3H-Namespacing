@@ -112,22 +112,20 @@ print_r($My_Module);
 
 print_r(${$My_Module['Strong_Modifiers']['Content']});
 
-/*
-So far so good - still need to convert:
-    
-'<My_Module Content="Fruitbowl" Fishbowl content="fruitbowl" fishbowl>'
-    
-into:
-
-'<My_Module::Content:Fruitbowl::Fishbowl#content:fruitbowl#fishbowl>'
-
-because the *real* dm() function will look like this:
-    
-$My_Module = dm('<My_Module Content="Fruitbowl" Fishbowl content="fruitbowl" fishbowl>');
-*/
-
 ?>
 ```
+
+*So far so good - still need to convert:*
+    
+    '<My_Module Content="Fruitbowl" Fishbowl content="fruitbowl" fishbowl>'
+    
+*into:*
+
+    '<My_Module::Content:Fruitbowl::Fishbowl#content:fruitbowl#fishbowl>'
+
+*because the **real*** `dm()` *function will look like this:*
+    
+    $My_Module = dm('<My_Module Content="Fruitbowl" Fishbowl content="fruitbowl" fishbowl>');`
 
 ________
 ________

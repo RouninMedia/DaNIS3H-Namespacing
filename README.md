@@ -49,11 +49,11 @@ and
    - `id="psn-modulename•strongmodifier»by»publisherName»»»"`
    - `class="psn-modulename•strongmodifier»by»publisherName»»»"`
 
-Note that the other kind of modifiers, *extension modifiers*, are **not conventionally included** in the `Namespace` or `Namespace Prefix` immediately above.
+Note that the *other* kind of modifier, *LightModifiers*, are **not conventionally included** in the `Namespace` or `Namespace Prefix` immediately above.
 
-Instead, *extension modifiers* (or *x-mods*) will appear as custom attributes at the end of the element, like this:
+Instead, *LightModifiers* will appear as custom attributes with the prefix `::` at the end of the element, like this:
 
-`<... data-°xmod1 data-°xmod2>`
+`<... ::xmod1 ::xmod2>`
 
 
 ### DaNIS3H Namespaces in pre-processed HTML Files
@@ -64,8 +64,8 @@ Instead, *extension modifiers* (or *x-mods*) will appear as custom attributes at
 
 In a PHP File, any reference is always to a specific Component of an DaNIS3H Capsule, as follows:
 
- - Classic Component DaNIS3H Capsule Reference: `${'<Markup[@]SB_Translations::EN>'}`
- - Custom Component DaNIS3H Capsule Reference: `${'<Welcome[@]SB_Translations::EN>'}`
+ - Classic Component DaNIS3H Capsule Reference: `${'<SB_Translations::EN [@]Markup>'}`
+ - Custom Component DaNIS3H Capsule Reference: `${'<SB_Translations::EN [@]Welcome>'}`
  - PrimeComponent DaNIS3H Capsule Reference: `${'<SB_Translations::EN>'}`
 
 
@@ -242,7 +242,7 @@ body.ashiva-control-pad-activated {  // <= obviously <body> is excepted from the
 
 CONCLUSIONS FOR GLOBAL NAMESPACE:
 
-i) ◄GLOBAL» Rule MUST be preceded by body > (UNLESS it begins with body)
+i) «GLOBAL» Rule MUST be preceded by body > (UNLESS it begins with body)
 ii) any namespace prefix must be stripped from any id or class attributes containing them
 iii) any <element> or [attribute] selector MUST be unfolded out to include the :not([id*="-filter-"]):not([class*="-filter-"]) qualifier
 

@@ -1,20 +1,20 @@
-# DaNIS3H Module Namespacing
+# DaNIS3H Capsule Namespacing
 
-**DaNIS3H Module Namespacing** is the _Module Namespacing System_ utilised by **DaNIS3H**.
+**DaNIS3H Capsule Namespacing** is the _Capsule Namespacing System_ utilised by **DaNIS3H**.
 
-Each **DaNIS3H Module** is automatically namespaced in order that the module's scripts and stylesheets don't influence the behaviour or presentation of elements in the **global** namespace or elements in other **DaNIS3H Modules** within the same HTML document.
+Each **DaNIS3H Capsule** is automatically namespaced in order that the module's scripts and stylesheets don't influence the behaviour or presentation of elements in the **global** namespace or elements in other **DaNIS3H Capsules** within the same HTML document.
 
-In turn, each **DaNIS3H Module**'s namespacing successfully shields the behaviour and presentation of that **DaNIS3H Module**'s own elements from being influenced or modified by scripts or styles from other **DaNIS3H Modules** within the same HTML document.
+In turn, each **DaNIS3H Capsule**'s namespacing successfully shields the behaviour and presentation of that **DaNIS3H Capsule**'s own elements from being influenced or modified by scripts or styles from other **DaNIS3H Capsules** within the same HTML document.
 
-Consequently, each **DaNIS3H Module** represents an entirely encapsulated sub-section of the parent HTML document. We may safely continue to add styles and scripts to any **DaNIS3H Module**, confident that none of these additions will inadvertently modify any other part of the HTML document.
+Consequently, each **DaNIS3H Capsule** represents an entirely encapsulated sub-section of the parent HTML document. We may safely continue to add styles and scripts to any **DaNIS3H Capsule**, confident that none of these additions will inadvertently modify any other part of the HTML document.
 
-This *also* means that an **DaNIS3H Module** developed for one website may be straightforwardly serialised as an **DaNIS3H Package** JSON file and then deployed on an entirely separate website without risk of incompatibility. (Multiple **DaNIS3H Packages** may also be saved and exported together as a single JSON file called an **DaNIS3H Bundle**.)
+This *also* means that an **DaNIS3H Capsule** developed for one website may be straightforwardly serialised as an **DaNIS3H Package** JSON file and then deployed on an entirely separate website without risk of incompatibility. (Multiple **DaNIS3H Packages** may also be saved and exported together as a single JSON file called an **DaNIS3H Bundle**.)
 
 ## Contents:
 
- - [The DaNIS3H Module Reference](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-module-reference/ashiva-module-reference.md)
-   - [Examples of Normal DaNIS3H Module References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-module-reference/normal-ashiva-module-references.md)
-   - [Examples of Full DaNIS3H Module References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-module-reference/full-ashiva-module-references.md)
+ - [The DaNIS3H Capsule Reference](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-module-reference/ashiva-module-reference.md)
+   - [Examples of Normal DaNIS3H Capsule References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-module-reference/normal-ashiva-module-references.md)
+   - [Examples of Full DaNIS3H Capsule References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-module-reference/full-ashiva-module-references.md)
  
  - [The DaNIS3H Component Reference](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-component-reference/ashiva-component-reference.md)
    - [Examples of DaNIS3H Component References](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-component-reference/ashiva-component-references.md)
@@ -30,10 +30,10 @@ This *also* means that an **DaNIS3H Module** developed for one website may be st
    - [Examples of DaNIS3H Namespace Access Directives](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-namespacing-access/ashiva-namespace-access-directive-examples.md)
    - [`checkNamespaceAccess()` Function](https://github.com/RouninMedia/ashiva-Namespacing/blob/master/ashiva-namespacing-access/check-namespace-access-function.md)
 
- - DaNIS3H Module References in DaNIS3H Module Manifests
+ - DaNIS3H Capsule References in DaNIS3H Capsule Manifests
 _____
 
-## DaNIS3H Module Namespaces and Namespace References in Files
+## DaNIS3H Capsule Namespaces and Namespace References in Files
 
 ### DaNIS3H Namespaces in pre-processed CSS and Javascript Files
 
@@ -60,16 +60,16 @@ Instead, *extension modifiers* (or *x-mods*) will appear as custom attributes at
 
 
 
-### DaNIS3H Module References in PHP Files
+### DaNIS3H Capsule References in PHP Files
 
-In a PHP File, any reference is always to a specific Component of an DaNIS3H Module, as follows:
+In a PHP File, any reference is always to a specific Component of an DaNIS3H Capsule, as follows:
 
- - Classic Component DaNIS3H Module Reference: `${'<Markup[@]SB_Translations::EN>'}`
- - Custom Component DaNIS3H Module Reference: `${'<Welcome[@]SB_Translations::EN>'}`
- - PrimeComponent DaNIS3H Module Reference: `${'<SB_Translations::EN>'}`
+ - Classic Component DaNIS3H Capsule Reference: `${'<Markup[@]SB_Translations::EN>'}`
+ - Custom Component DaNIS3H Capsule Reference: `${'<Welcome[@]SB_Translations::EN>'}`
+ - PrimeComponent DaNIS3H Capsule Reference: `${'<SB_Translations::EN>'}`
 
 
-### DaNIS3H Module References in DaNIS3H Module Manifests
+### DaNIS3H Capsule References in DaNIS3H Capsule Manifests
 
 _______
 
